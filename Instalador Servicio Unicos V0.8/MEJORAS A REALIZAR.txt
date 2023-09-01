@@ -1,0 +1,6 @@
+V0.9
+-captura error 
+-Middleware low case
+-que aparezca el nombre del servicio en el textbox
+-Permitir elegir entre manual y automatico 
+-Permitir Seleccionar el usuario con el que estara logeado el servicio

@@ -1,0 +1,3 @@
+abrir en modo administrador
+-Agregar una base de datos 
+-El usuario pueda modificar todo
