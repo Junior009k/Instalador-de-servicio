@@ -1,0 +1,67 @@
+{
+    "Aplication": 
+    {
+        "Ventana":
+        {
+            "size": "500x350",
+            "resizable":"False",
+
+        }
+        "Modulos Generales": 
+        {
+            "Menu Principal": 
+            {
+                "BackgroundColor": "#00F",
+            },
+            "Menu Principal": 
+            {
+                "BackgroundColor": "#00F",
+            },
+            "Menu Principal": 
+            {
+                "BackgroundColor": "#00F",
+            },
+        },
+
+        "Menu Principal": 
+        {
+            "BackgroundColor": "#00F",
+            "font":"Helvetica",
+        },
+        "Menu e-Flow": 
+        {
+            "BackgroundColor": "#00F",
+            "font": "Helvfont"
+        },
+        "Menu Client": 
+        {
+            "BackgroundColor": "#F00",
+            "font": "Helvfont"
+        },
+        "Menu Citas": 
+        {
+            "BackgroundColor": "#F00",
+            "font": "Helvfont"
+        },
+        "Menu Encuestas": 
+        {
+            "BackgroundColor": "#F00",
+            "font": "Helvfont"
+        },
+        "Menu Reportes": 
+        {
+            "BackgroundColor": "#0f0",
+            "font": "Helvfont"
+        },
+        "Menu Automatizacion": 
+        {
+            "BackgroundColor": "#AAF",
+            "font": "Helvfont"
+        }
+        "Menu Principal": 
+        {
+            "BackgroundColor": "#00F",
+        }
+
+    }
+}

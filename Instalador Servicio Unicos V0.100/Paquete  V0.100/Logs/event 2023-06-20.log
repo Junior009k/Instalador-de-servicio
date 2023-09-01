@@ -1,0 +1,42 @@
+INFO:root: 2023-06-20 16:18:36.973391: Inicializacion de la Aplicacion
+INFO:root: 2023-06-20 16:18:44.803843: Fin de la ejecucion de la Aplicacion
+INFO:root: 2023-06-20 16:18:55.661199: Inicializacion de la Aplicacion
+INFO:root: 2023-06-20 16:33:29.559470: Se esta seleccionando el directorio para la creacion de la aplicacion
+INFO:root: 2023-06-20 16:33:49.859227: Se selecciono el directorio C:/Sidesys
+INFO:root: 2023-06-20 16:34:48.456446: Se comienza a crear la aplicacion
+INFO:root: 2023-06-20 16:34:48.456446: Inicializacion De la creacion del site pruebaUpdate0.99 
+INFO:root: 2023-06-20 16:34:50.403002: CompletedProcess(args=['powershell', '-Command', '\n                 Import-Module WebAdministration\n                 New-IISSite -Name pruebaUpdate0.99 -BindingInformation "*:56:" -PhysicalPath "C:\\Sidesys"\n                '], returncode=0, stdout='', stderr='Import-Module : Process should have elevated status to access IIS configuration data.\nAt line:2 char:18\n+                  Import-Module WebAdministration\n+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : OperationStopped: (:) [Import-Module], InvalidOperationException\n    + FullyQualifiedErrorId : Module_ImportModuleError,Microsoft.PowerShell.Commands.ImportModuleCommand\n \n') 
+INFO:root: 2023-06-20 16:34:50.409017: pruebaUpdate0.99 Se creo el site correctamente
+INFO:root: 2023-06-20 16:38:12.400288: Se esta seleccionando el directorio para la creacion de la aplicacion
+INFO:root: 2023-06-20 16:38:29.101256: Se selecciono el directorio C:/sidesysNME
+INFO:root: 2023-06-20 16:38:49.774348: Se esta seleccionando el directorio para la creacion de la aplicacion
+INFO:root: 2023-06-20 16:38:56.303445: Se selecciono el directorio C:/Sides
+INFO:root: 2023-06-20 16:39:17.899879: Se comienza a modificar  NCache
+INFO:root: 2023-06-20 16:39:17.900402: Paso todas las pruebas, comenzando proceso de modificacion de los NCache
+INFO:root: 2023-06-20 16:39:17.914587: Ha sido modificado el  archivo C:\Sides\FrontEnd\STE\ConfigFiles\ServiceBus.NCache.config de forma exitosa
+INFO:root: 2023-06-20 16:39:17.914587: Se cambio la cadena de texto ServerName="192.168.104.925"
+INFO:root: 2023-06-20 16:39:17.914587: por la cadena de texto ServerName="192.168.155.168"
+INFO:root: 2023-06-20 16:39:17.931778: Ha sido modificado el  archivo C:\Sides\FrontEnd\STE\ConfigFiles\ServiceBus.NCache.config de forma exitosa
+INFO:root: 2023-06-20 16:39:17.931778: Se cambio la cadena de texto CacheName ="CAHE"
+INFO:root: 2023-06-20 16:39:17.931778: por la cadena de texto CacheName ="myCache"
+INFO:root: 2023-06-20 16:39:17.933702: Ha sido modificado el  archivo C:\Sides\MiddleWare\STE\bin\ServiceBus.NCache.config de forma exitosa
+INFO:root: 2023-06-20 16:39:17.933702: Se cambio la cadena de texto ServerName="192.168.104.925"
+INFO:root: 2023-06-20 16:39:17.933702: por la cadena de texto ServerName="192.168.155.168"
+INFO:root: 2023-06-20 16:39:17.936622: Ha sido modificado el  archivo C:\Sides\MiddleWare\STE\bin\ServiceBus.NCache.config de forma exitosa
+INFO:root: 2023-06-20 16:39:17.936622: Se cambio la cadena de texto CacheName ="CAHE"
+INFO:root: 2023-06-20 16:39:17.936622: por la cadena de texto CacheName ="myCache"
+INFO:root: 2023-06-20 16:39:35.263039: Fin de la ejecucion de la Aplicacion
+INFO:root: 2023-06-20 16:44:50.267453: Inicializacion de la Aplicacion
+INFO:root: 2023-06-20 16:45:18.286632: Se esta seleccionando el directorio para la creacion de la aplicacion
+INFO:root: 2023-06-20 16:45:21.734859: Se selecciono el directorio C:/Sides
+INFO:root: 2023-06-20 16:47:20.219153: Se comienza a modificar  NME
+INFO:root: 2023-06-20 16:47:20.219153: Paso todas las pruebas, comenzando proceso de modificacion del Nuevo Modulo de Emision
+INFO:root: 2023-06-20 16:47:25.104785: Ha sido modificado el  archivo C:\Sides\FrontEnd\Sidesys.eFlow.Emission.API\Web.config de forma exitosa
+INFO:root: 2023-06-20 16:47:25.104785: Se cambio la cadena de texto <add key="eFlowServiceUrl" value="http://192.168.104.92/API/Services/EmissionService.svc"
+INFO:root: 2023-06-20 16:47:25.104785: por la cadena de texto <add key="eFlowServiceUrl" value="http://192.168.165.165/STEPR/Services/EmissionService.svc"
+INFO:root: 2023-06-20 16:47:25.120016: Ha sido modificado el  archivo C:\Sides\FrontEnd\STE\SPA\assets\configuration\emission.config.json de forma exitosa
+INFO:root: 2023-06-20 16:47:25.121642: Se cambio la cadena de texto "emissionApiEndpoint": "http://192.168.104.92/FSDFDAS",
+      "appointmentEnabled": true,
+INFO:root: 2023-06-20 16:47:25.121642: por la cadena de texto "emissionApiEndpoint": "http://192.168.165.165/STEPRAPI",
+      "appointmentEnabled": true,
+INFO:root: 2023-06-20 16:47:26.989275: Fin de la ejecucion de la Aplicacion

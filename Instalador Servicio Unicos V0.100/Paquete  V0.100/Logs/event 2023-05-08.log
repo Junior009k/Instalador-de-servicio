@@ -1,0 +1,13 @@
+INFO:root: 2023-05-08 14:39:25.798352: Inicializacion de la Aplicacion
+INFO:root: 2023-05-08 14:39:30.647457: guardando los datos de configuracion
+INFO:root:2023-05-08 14:39:30.648477: Estableciendo color Purpura al frame 1 id del color 4
+INFO:root:2023-05-08 14:39:30.648477: Estableciendo color Verde al frame 2 id del color 2
+INFO:root:2023-05-08 14:39:30.648477: Estableciendo color Verde al frame 3 id del color 2
+INFO:root:2023-05-08 14:39:30.648477: Estableciendo color Purpura al frame 4 id del color 4
+INFO:root:2023-05-08 14:39:30.648477: actualizando la tabla estadoColor en el frame 1 actualiza el valor del campo idColor con 4)
+INFO:root:2023-05-08 14:39:30.648477: actualizando la tabla estadoColor en el frame 2 actualiza el valor del campo idColor con 2)
+INFO:root:2023-05-08 14:39:30.648477: actualizando la tabla estadoColor en el frame 3 actualiza el valor del campo idColor con 2)
+INFO:root:2023-05-08 14:39:30.648477: actualizando la tabla estadoColor en el frame 4 actualiza el valor del campo idColor con 4)
+INFO:root: 2023-05-08 14:39:35.564437: Fin de la ejecucion de la Aplicacion
+INFO:root: 2023-05-08 14:39:44.977069: Inicializacion de la Aplicacion
+INFO:root: 2023-05-08 14:39:51.442434: Fin de la ejecucion de la Aplicacion

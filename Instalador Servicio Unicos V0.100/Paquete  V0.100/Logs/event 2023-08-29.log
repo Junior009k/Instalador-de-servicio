@@ -1,0 +1,33 @@
+INFO:root: 2023-08-29 08:04:38.873753: Inicializacion de la Aplicacion
+INFO:root: 2023-08-29 08:07:52.750184: Se selecciono el directorio C:/Entornos/Banco Promerica - 01/PRODUCCION donde se identificaran los reportes
+INFO:root: 2023-08-29 08:07:52.750184: Empezando a identificar el servicio de la ruta C:\Entornos\Banco Promerica - 01\PRODUCCION\Middleware\STE\bin\Sidesys.Services.ApplicationService.exe
+INFO:root: 2023-08-29 08:07:53.251123: Nombre: e-Flow Banco Promerica MiddleWare Service
+INFO:root: 2023-08-29 08:07:53.266746: Estado: Stopped
+INFO:root: 2023-08-29 08:07:53.266746: Tipo de inicio: Manual
+INFO:root: 2023-08-29 08:07:53.266746: Descripción: None
+INFO:root: 2023-08-29 08:07:53.266746: Ruta del archivo ejecutable: C:/Entornos/Banco Promerica - 01/PRODUCCION/Middleware/STE/bin/Sidesys.Services.ApplicationService.exe
+INFO:root: 2023-08-29 08:07:53.266746:buscando site que coincidan con la ruta C:\Entornos\Banco Promerica - 01\PRODUCCION\FrontEnd\STE
+INFO:root: 2023-08-29 08:07:53.266746:empezando la consulta en poweshell
+INFO:root: 2023-08-29 08:07:53.266746:Get-WebApplication | select physicalPath
+INFO:root: 2023-08-29 08:07:55.840730:empezando la consulta en poweshell
+INFO:root: 2023-08-29 08:07:55.840730:Get-WebApplication | select path,applicationPool,enabledprotocols
+INFO:root: 2023-08-29 08:07:57.391872:buscando site que coincidan con la ruta C:\Entornos\Banco Promerica - 01\PRODUCCION\FrontEnd\STE
+INFO:root: 2023-08-29 08:07:57.391872:empezando la consulta en poweshell
+INFO:root: 2023-08-29 08:07:57.391872:Get-WebSite | select id,physicalPath
+INFO:root: 2023-08-29 08:07:58.928682:empezando la consulta en poweshell
+INFO:root: 2023-08-29 08:07:58.928682:Get-WebSite | select name,state,enabledprotocols
+INFO:root: 2023-08-29 08:08:24.661036: Se selecciono el directorio C:/Entornos/Superintendencia - 04/PRODUCCION donde se identificaran los reportes
+INFO:root: 2023-08-29 08:08:24.661036: Empezando a identificar el servicio de la ruta C:\Entornos\Superintendencia - 04\PRODUCCION\Middleware\Appointment\bin\Sidesys.Services.ApplicationService.exe
+INFO:root: 2023-08-29 08:08:25.305818: La carpeta Appointment  existe
+INFO:root: 2023-08-29 08:08:25.305818: La carpeta Appointment  existe
+INFO:root: 2023-08-29 08:08:25.305818:buscando site que coincidan con la ruta C:\Entornos\Superintendencia - 04\PRODUCCION\FrontEnd\Appointment
+INFO:root: 2023-08-29 08:08:25.305818:empezando la consulta en poweshell
+INFO:root: 2023-08-29 08:08:25.305818:Get-WebApplication | select physicalPath
+INFO:root: 2023-08-29 08:08:26.580899:empezando la consulta en poweshell
+INFO:root: 2023-08-29 08:08:26.580899:Get-WebApplication | select path,applicationPool,enabledprotocols
+INFO:root: 2023-08-29 08:08:27.825025:buscando site que coincidan con la ruta C:\Entornos\Superintendencia - 04\PRODUCCION\FrontEnd\Appointment
+INFO:root: 2023-08-29 08:08:27.825025:empezando la consulta en poweshell
+INFO:root: 2023-08-29 08:08:27.825025:Get-WebSite | select id,physicalPath
+INFO:root: 2023-08-29 08:08:29.109649:empezando la consulta en poweshell
+INFO:root: 2023-08-29 08:08:29.109649:Get-WebSite | select name,state,enabledprotocols
+INFO:root: 2023-08-29 08:08:30.526355: No se encontro aplicacion o site asociado a este paquete
