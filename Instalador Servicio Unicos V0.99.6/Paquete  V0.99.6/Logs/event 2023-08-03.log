@@ -1,0 +1,13 @@
+INFO:root: 2023-08-03 15:29:10.729846: Inicializacion de la Aplicacion
+INFO:root: 2023-08-03 15:29:10.923144: La imagenes no fueron cargadas correctamente, valide que la carpeta img se encuentre en el aplicativo
+INFO:root: 2023-08-03 15:29:34.089511: Se establecio el inicio Automatico
+INFO:root: 2023-08-03 15:29:36.982734: Se establecio el inicio Manual
+INFO:root: 2023-08-03 15:29:37.631644: Se esta examinando el archivo
+INFO:root: 2023-08-03 15:29:58.955441: Se esta ejecutando la instalacion del servicio
+INFO:root: 2023-08-03 15:29:58.955441: Se establecio el inicio Manual
+INFO:root: 2023-08-03 15:29:58.955441: Inicializacion De La instalacion del servicio
+INFO:root: 2023-08-03 15:29:59.425497: create "e-Flow Banco Promerica MiddleWare Service"  binpath="C:/Entornos/Banco Promerica - 01/PRODUCCION/Middleware/STE/bin/Sidesys.Services.ApplicationService.exe" obj=localsystem start=demand 
+INFO:root: 2023-08-03 15:29:59.519254: El servicio e-Flow Banco Promerica MiddleWare Service se ha instalado exitosamente
+INFO:root: 2023-08-03 15:29:59.519254: Finalizacion de la instalacion del servicio
+INFO:root: 2023-08-03 15:30:00.777719: Se establecio el inicio Manual
+INFO:root: 2023-08-03 15:36:00.663075: Fin de la ejecucion de la Aplicacion

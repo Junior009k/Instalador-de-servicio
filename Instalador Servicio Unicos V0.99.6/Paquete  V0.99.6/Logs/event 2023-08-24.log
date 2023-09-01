@@ -1,0 +1,156 @@
+INFO:root: 2023-08-24 09:58:14.877822: Inicializacion de la Aplicacion
+INFO:root: 2023-08-24 09:58:32.504137: Se selecciono el directorio C:/Entornos/Cerilab - 05/PRODUCCION donde se identificaran los reportes
+INFO:root: 2023-08-24 09:58:32.505138: Empezando a identificar el servicio de la ruta C:\Entornos\Cerilab - 05\PRODUCCION\Middleware\OpinionPoll\bin\Sidesys.Services.ApplicationService.exe
+INFO:root: 2023-08-24 09:58:33.448749: La carpeta OpinionPoll  existe
+INFO:root: 2023-08-24 09:58:33.449748: La carpeta OpinionPoll  existe
+INFO:root: 2023-08-24 09:58:33.451749:buscando site que coincidan con la ruta C:\Entornos\Cerilab - 05\PRODUCCION\FrontEnd\OpinionPoll
+INFO:root: 2023-08-24 09:58:33.452286:empezando la consulta en poweshell
+INFO:root: 2023-08-24 09:58:33.452286:Get-WebApplication | select physicalPath
+ERROR:root: 2023-08-24 09:58:35.907145:error al realizar la consulta en powershell Import-Module : Process should have elevated status to access IIS configuration data.
+At line:1 char:1
++ Import-Module WebAdministration
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Import-Module], InvalidOperationException
+    + FullyQualifiedErrorId : Module_ImportModuleError,Microsoft.PowerShell.Commands.ImportModuleCommand
+ 
+get-webconfiguration : Cannot find a provider with the name 'WebAdministration'.
+At line:2 char:18
++                  Get-WebApplication | select physicalPath
++                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (WebAdministration:String) [Get-WebConfiguration], ProviderNotFoundExcep 
+   tion
+    + FullyQualifiedErrorId : ProviderNotFound,Microsoft.IIs.PowerShell.Provider.GetConfigurationCommand
+ 
+
+INFO:root: 2023-08-24 09:58:35.907145:empezando la consulta en poweshell
+INFO:root: 2023-08-24 09:58:35.907145:Get-WebApplication | select path,applicationPool,enabledprotocols
+ERROR:root: 2023-08-24 09:58:37.297111:error al realizar la consulta en powershell Import-Module : Process should have elevated status to access IIS configuration data.
+At line:1 char:1
++ Import-Module WebAdministration
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Import-Module], InvalidOperationException
+    + FullyQualifiedErrorId : Module_ImportModuleError,Microsoft.PowerShell.Commands.ImportModuleCommand
+ 
+get-webconfiguration : Cannot find a provider with the name 'WebAdministration'.
+At line:2 char:18
++ ...             Get-WebApplication | select path,applicationPool,enabledp ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (WebAdministration:String) [Get-WebConfiguration], ProviderNotFoundExcep 
+   tion
+    + FullyQualifiedErrorId : ProviderNotFound,Microsoft.IIs.PowerShell.Provider.GetConfigurationCommand
+ 
+
+INFO:root: 2023-08-24 09:58:37.297111:buscando site que coincidan con la ruta C:\Entornos\Cerilab - 05\PRODUCCION\FrontEnd\OpinionPoll
+INFO:root: 2023-08-24 09:58:37.297111:empezando la consulta en poweshell
+INFO:root: 2023-08-24 09:58:37.297111:Get-WebSite | select id,physicalPath
+ERROR:root: 2023-08-24 09:58:38.676850:error al realizar la consulta en powershell Import-Module : Process should have elevated status to access IIS configuration data.
+At line:1 char:1
++ Import-Module WebAdministration
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Import-Module], InvalidOperationException
+    + FullyQualifiedErrorId : Module_ImportModuleError,Microsoft.PowerShell.Commands.ImportModuleCommand
+ 
+Get-WebSite : Cannot find a provider with the name 'WebAdministration'.
+At line:2 char:18
++                  Get-WebSite | select id,physicalPath
++                  ~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (WebAdministration:String) [Get-Website], ProviderNotFoundException
+    + FullyQualifiedErrorId : ProviderNotFound,Microsoft.IIs.PowerShell.Provider.GetWebsiteCommand
+ 
+
+INFO:root: 2023-08-24 09:58:38.676850:empezando la consulta en poweshell
+INFO:root: 2023-08-24 09:58:38.676850:Get-WebSite | select name,state,enabledprotocols
+ERROR:root: 2023-08-24 09:58:40.028464:error al realizar la consulta en powershell Import-Module : Process should have elevated status to access IIS configuration data.
+At line:1 char:1
++ Import-Module WebAdministration
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Import-Module], InvalidOperationException
+    + FullyQualifiedErrorId : Module_ImportModuleError,Microsoft.PowerShell.Commands.ImportModuleCommand
+ 
+Get-WebSite : Cannot find a provider with the name 'WebAdministration'.
+At line:2 char:18
++                  Get-WebSite | select name,state,enabledprotocols
++                  ~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (WebAdministration:String) [Get-Website], ProviderNotFoundException
+    + FullyQualifiedErrorId : ProviderNotFound,Microsoft.IIs.PowerShell.Provider.GetWebsiteCommand
+ 
+
+INFO:root: 2023-08-24 09:58:40.029464: No se encontro aplicacion o site asociado a este paquete
+INFO:root: 2023-08-24 11:15:13.761848: Inicializacion de la Aplicacion
+INFO:root: 2023-08-24 11:24:49.313778: Se selecciono el directorio C:/Entornos/Cerilab - 05/PRODUCCION donde se identificaran los reportes
+INFO:root: 2023-08-24 11:24:49.313778: Empezando a identificar el servicio de la ruta C:\Entornos\Cerilab - 05\PRODUCCION\Middleware\OpinionPoll\bin\Sidesys.Services.ApplicationService.exe
+INFO:root: 2023-08-24 11:24:50.461421: La carpeta OpinionPoll  existe
+INFO:root: 2023-08-24 11:24:50.461421: La carpeta OpinionPoll  existe
+INFO:root: 2023-08-24 11:24:50.462422:buscando site que coincidan con la ruta C:\Entornos\Cerilab - 05\PRODUCCION\FrontEnd\OpinionPoll
+INFO:root: 2023-08-24 11:24:50.462422:empezando la consulta en poweshell
+INFO:root: 2023-08-24 11:24:50.462422:Get-WebApplication | select physicalPath
+ERROR:root: 2023-08-24 11:24:52.362437:error al realizar la consulta en powershell Import-Module : Process should have elevated status to access IIS configuration data.
+At line:1 char:1
++ Import-Module WebAdministration
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Import-Module], InvalidOperationException
+    + FullyQualifiedErrorId : Module_ImportModuleError,Microsoft.PowerShell.Commands.ImportModuleCommand
+ 
+get-webconfiguration : Cannot find a provider with the name 'WebAdministration'.
+At line:2 char:18
++                  Get-WebApplication | select physicalPath
++                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (WebAdministration:String) [Get-WebConfiguration], ProviderNotFoundExcep 
+   tion
+    + FullyQualifiedErrorId : ProviderNotFound,Microsoft.IIs.PowerShell.Provider.GetConfigurationCommand
+ 
+
+INFO:root: 2023-08-24 11:24:52.362437:empezando la consulta en poweshell
+INFO:root: 2023-08-24 11:24:52.363437:Get-WebApplication | select path,applicationPool,enabledprotocols
+ERROR:root: 2023-08-24 11:24:53.781756:error al realizar la consulta en powershell Import-Module : Process should have elevated status to access IIS configuration data.
+At line:1 char:1
++ Import-Module WebAdministration
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Import-Module], InvalidOperationException
+    + FullyQualifiedErrorId : Module_ImportModuleError,Microsoft.PowerShell.Commands.ImportModuleCommand
+ 
+get-webconfiguration : Cannot find a provider with the name 'WebAdministration'.
+At line:2 char:18
++ ...             Get-WebApplication | select path,applicationPool,enabledp ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (WebAdministration:String) [Get-WebConfiguration], ProviderNotFoundExcep 
+   tion
+    + FullyQualifiedErrorId : ProviderNotFound,Microsoft.IIs.PowerShell.Provider.GetConfigurationCommand
+ 
+
+INFO:root: 2023-08-24 11:24:53.781756:buscando site que coincidan con la ruta C:\Entornos\Cerilab - 05\PRODUCCION\FrontEnd\OpinionPoll
+INFO:root: 2023-08-24 11:24:53.782756:empezando la consulta en poweshell
+INFO:root: 2023-08-24 11:24:53.782756:Get-WebSite | select id,physicalPath
+ERROR:root: 2023-08-24 11:24:55.203904:error al realizar la consulta en powershell Import-Module : Process should have elevated status to access IIS configuration data.
+At line:1 char:1
++ Import-Module WebAdministration
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Import-Module], InvalidOperationException
+    + FullyQualifiedErrorId : Module_ImportModuleError,Microsoft.PowerShell.Commands.ImportModuleCommand
+ 
+Get-WebSite : Cannot find a provider with the name 'WebAdministration'.
+At line:2 char:18
++                  Get-WebSite | select id,physicalPath
++                  ~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (WebAdministration:String) [Get-Website], ProviderNotFoundException
+    + FullyQualifiedErrorId : ProviderNotFound,Microsoft.IIs.PowerShell.Provider.GetWebsiteCommand
+ 
+
+INFO:root: 2023-08-24 11:24:55.203904:empezando la consulta en poweshell
+INFO:root: 2023-08-24 11:24:55.203904:Get-WebSite | select name,state,enabledprotocols
+ERROR:root: 2023-08-24 11:24:56.569309:error al realizar la consulta en powershell Import-Module : Process should have elevated status to access IIS configuration data.
+At line:1 char:1
++ Import-Module WebAdministration
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (:) [Import-Module], InvalidOperationException
+    + FullyQualifiedErrorId : Module_ImportModuleError,Microsoft.PowerShell.Commands.ImportModuleCommand
+ 
+Get-WebSite : Cannot find a provider with the name 'WebAdministration'.
+At line:2 char:18
++                  Get-WebSite | select name,state,enabledprotocols
++                  ~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (WebAdministration:String) [Get-Website], ProviderNotFoundException
+    + FullyQualifiedErrorId : ProviderNotFound,Microsoft.IIs.PowerShell.Provider.GetWebsiteCommand
+ 
+
+INFO:root: 2023-08-24 11:24:56.569309: No se encontro aplicacion o site asociado a este paquete

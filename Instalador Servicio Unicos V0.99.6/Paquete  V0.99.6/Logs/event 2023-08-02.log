@@ -1,0 +1,107 @@
+INFO:root: 2023-08-02 09:14:38.218767: Inicializacion de la Aplicacion
+INFO:root: 2023-08-02 09:15:26.995629: Inicializacion de la Aplicacion
+INFO:root: 2023-08-02 09:15:27.235137: La imagenes no fueron cargadas correctamente, valide que la carpeta img se encuentre en el aplicativo
+INFO:root: 2023-08-02 09:15:45.309974: Fin de la ejecucion de la Aplicacion
+INFO:root: 2023-08-02 09:16:58.836184: Inicializacion de la Aplicacion
+INFO:root: 2023-08-02 09:16:59.136623: La imagenes no fueron cargadas correctamente, valide que la carpeta img se encuentre en el aplicativo
+INFO:root: 2023-08-02 09:17:20.316347: Se esta seleccionando el directorio para la carga de datos de NME
+INFO:root: 2023-08-02 09:17:33.131988: Se selecciono el directorio C:/Entornos/Clinica San Rafael
+INFO:root: 2023-08-02 09:17:33.131988: El path no ha podido ser cambiado, asegurese que dentro del campo ha modificar no halla espacio en blanco
+INFO:root: 2023-08-02 09:17:33.134009: El path no ha podido ser cambiado, asegurese que dentro del campo ha modificar no halla espacio en blanco
+INFO:root: 2023-08-02 09:17:36.748253: Se esta seleccionando el directorio para la carga de datos de NME
+INFO:root: 2023-08-02 09:17:45.423887: Se selecciono el directorio C:/Entornos/Superintendencia - 04/PRODUCCION
+INFO:root: 2023-08-02 09:18:03.452183: Se comienza a modificar  emission.config
+INFO:root: 2023-08-02 09:18:03.452183: La carpeta Middleware  existe
+INFO:root: 2023-08-02 09:18:03.453198: La carpeta FrontEnd  existe
+INFO:root: 2023-08-02 09:18:03.453198: Paso todas las pruebas, comenzando proceso de modificacion del Nuevo Modulo de Emision
+INFO:root: 2023-08-02 09:18:04.481153: Se comienza a modificar el  archivo C:\Entornos\Superintendencia - 04\PRODUCCION/FrontEnd/STE/SPA/assets/configuration/emission.config.json
+INFO:root: 2023-08-02 09:18:04.493839: Ha sido modificado el  archivo C:\Entornos\Superintendencia - 04\PRODUCCION\FrontEnd\STE\SPA\assets\configuration\emission.config.json de forma exitosa
+INFO:root: 2023-08-02 09:18:04.493839: Se cambio la cadena de texto "showButton": true,
+INFO:root: 2023-08-02 09:18:04.493839: por la cadena de texto "showButton": true,
+INFO:root: 2023-08-02 09:18:04.493839: Se comienza a modificar el  archivo C:\Entornos\Superintendencia - 04\PRODUCCION/FrontEnd/STE/SPA/assets/configuration/emission.config.json
+INFO:root: 2023-08-02 09:18:04.514020: Ha sido modificado el  archivo C:\Entornos\Superintendencia - 04\PRODUCCION\FrontEnd\STE\SPA\assets\configuration\emission.config.json de forma exitosa
+INFO:root: 2023-08-02 09:18:04.514020: Se cambio la cadena de texto "showAnnounceAppointment": true,
+INFO:root: 2023-08-02 09:18:04.514020: por la cadena de texto "showAnnounceAppointment": false,
+INFO:root: 2023-08-02 09:18:05.948218: Se esta seleccionando el directorio para la carga de datos de NME
+INFO:root: 2023-08-02 09:18:07.657435: Se selecciono el directorio C:/Entornos/Superintendencia - 04/PRODUCCION
+INFO:root: 2023-08-02 09:18:13.372236: Se esta seleccionando el directorio para la carga de datos de NME
+INFO:root: 2023-08-02 09:18:15.084408: Se selecciono el directorio C:/Entornos/Superintendencia - 04/PRODUCCION
+INFO:root: 2023-08-02 09:18:18.052391: Se comienza a modificar  emission.config
+INFO:root: 2023-08-02 09:18:18.052391: La carpeta Middleware  existe
+INFO:root: 2023-08-02 09:18:18.053393: La carpeta FrontEnd  existe
+INFO:root: 2023-08-02 09:18:18.053393: Paso todas las pruebas, comenzando proceso de modificacion del Nuevo Modulo de Emision
+INFO:root: 2023-08-02 09:18:19.257677: Se comienza a modificar el  archivo C:\Entornos\Superintendencia - 04\PRODUCCION/FrontEnd/STE/SPA/assets/configuration/emission.config.json
+INFO:root: 2023-08-02 09:18:19.280734: Ha sido modificado el  archivo C:\Entornos\Superintendencia - 04\PRODUCCION\FrontEnd\STE\SPA\assets\configuration\emission.config.json de forma exitosa
+INFO:root: 2023-08-02 09:18:19.280734: Se cambio la cadena de texto "showButton": true,
+INFO:root: 2023-08-02 09:18:19.280734: por la cadena de texto "showButton": true,
+INFO:root: 2023-08-02 09:18:19.280734: Se comienza a modificar el  archivo C:\Entornos\Superintendencia - 04\PRODUCCION/FrontEnd/STE/SPA/assets/configuration/emission.config.json
+INFO:root: 2023-08-02 09:18:19.301104: Ha sido modificado el  archivo C:\Entornos\Superintendencia - 04\PRODUCCION\FrontEnd\STE\SPA\assets\configuration\emission.config.json de forma exitosa
+INFO:root: 2023-08-02 09:18:19.301104: Se cambio la cadena de texto "showAnnounceAppointment": false,
+INFO:root: 2023-08-02 09:18:19.301104: por la cadena de texto "showAnnounceAppointment": true,
+INFO:root: 2023-08-02 09:18:20.284207: Se esta seleccionando el directorio para la carga de datos de NME
+INFO:root: 2023-08-02 09:18:22.598764: Se selecciono el directorio 
+INFO:root: 2023-08-02 09:18:22.598764: El path no ha podido ser cambiado, asegurese que dentro del campo ha modificar no halla espacio en blanco
+INFO:root: 2023-08-02 09:18:22.598764: El path no ha podido ser cambiado, asegurese que dentro del campo ha modificar no halla espacio en blanco
+INFO:root: 2023-08-02 09:18:25.900141: Se esta examinando el archivo
+INFO:root: 2023-08-02 09:18:57.012043: Se esta examinando el archivo
+INFO:root: 2023-08-02 09:19:06.035984: Se comienza a modificar el nodo
+INFO:root: 2023-08-02 09:19:06.035984: Paso todas las pruebas, comenzando proceso de modificacion del Web sevice de citas
+INFO:root: 2023-08-02 09:19:06.035984: Se comienza a modificar el  archivo C:/Entornos/Banco Promerica - 01/PRODUCCION/FrontEnd/STE/view_configuration/PROMERICA/xml/PROMERICA-vtnodo.xml
+INFO:root: 2023-08-02 09:19:06.046651: Ha sido modificado el  archivo C:\Entornos\Banco Promerica - 01\PRODUCCION\FrontEnd\STE\view_configuration\PROMERICA\xml\PROMERICA-vtnodo.xml de forma exitosa
+INFO:root: 2023-08-02 09:19:06.046651: Se cambio la cadena de texto fontFamily":"fontfg"
+INFO:root: 2023-08-02 09:19:06.046651: por la cadena de texto fontFamily":"fontfg"
+INFO:root: 2023-08-02 09:19:06.046651: Se comienza a modificar el  archivo C:/Entornos/Banco Promerica - 01/PRODUCCION/FrontEnd/STE/view_configuration/PROMERICA/xml/PROMERICA-vtnodo.xml
+INFO:root: 2023-08-02 09:19:06.052911: Ha sido modificado el  archivo C:\Entornos\Banco Promerica - 01\PRODUCCION\FrontEnd\STE\view_configuration\PROMERICA\xml\PROMERICA-vtnodo.xml de forma exitosa
+INFO:root: 2023-08-02 09:19:06.052911: Se cambio la cadena de texto voice":"vASDFDFASLAGSD"
+INFO:root: 2023-08-02 09:19:06.052911: por la cadena de texto voice":"vASDFDFASLAGSD"
+INFO:root: 2023-08-02 09:19:06.052911: Se comienza a modificar el  archivo C:/Entornos/Banco Promerica - 01/PRODUCCION/FrontEnd/STE/view_configuration/PROMERICA/xml/PROMERICA-vtnodo.xml
+INFO:root: 2023-08-02 09:19:06.052911: Ha sido modificado el  archivo C:\Entornos\Banco Promerica - 01\PRODUCCION\FrontEnd\STE\view_configuration\PROMERICA\xml\PROMERICA-vtnodo.xml de forma exitosa
+INFO:root: 2023-08-02 09:19:06.052911: Se cambio la cadena de texto backgroundColor":"hcolor"
+INFO:root: 2023-08-02 09:19:06.052911: por la cadena de texto backgroundColor":"hcolor"
+INFO:root: 2023-08-02 09:19:06.052911: Se comienza a modificar el  archivo C:/Entornos/Banco Promerica - 01/PRODUCCION/FrontEnd/STE/view_configuration/PROMERICA/xml/PROMERICA-vtnodo.xml
+INFO:root: 2023-08-02 09:19:06.068539: Ha sido modificado el  archivo C:\Entornos\Banco Promerica - 01\PRODUCCION\FrontEnd\STE\view_configuration\PROMERICA\xml\PROMERICA-vtnodo.xml de forma exitosa
+INFO:root: 2023-08-02 09:19:06.068539: Se cambio la cadena de texto backgroundColor":"fcolor"
+INFO:root: 2023-08-02 09:19:06.068539: por la cadena de texto backgroundColor":"fcolor"
+INFO:root: 2023-08-02 09:19:06.068539: Se comienza a modificar el  archivo C:/Entornos/Banco Promerica - 01/PRODUCCION/FrontEnd/STE/view_configuration/PROMERICA/xml/PROMERICA-vtnodo.xml
+INFO:root: 2023-08-02 09:19:06.084160: Ha sido modificado el  archivo C:\Entornos\Banco Promerica - 01\PRODUCCION\FrontEnd\STE\view_configuration\PROMERICA\xml\PROMERICA-vtnodo.xml de forma exitosa
+INFO:root: 2023-08-02 09:19:06.084160: Se cambio la cadena de texto fontSize":"f"
+INFO:root: 2023-08-02 09:19:06.084160: por la cadena de texto fontSize":"f"
+INFO:root: 2023-08-02 09:19:06.084160: Se comienza a modificar el  archivo C:/Entornos/Banco Promerica - 01/PRODUCCION/FrontEnd/STE/view_configuration/PROMERICA/xml/PROMERICA-vtnodo.xml
+INFO:root: 2023-08-02 09:19:06.084160: Ha sido modificado el  archivo C:\Entornos\Banco Promerica - 01\PRODUCCION\FrontEnd\STE\view_configuration\PROMERICA\xml\PROMERICA-vtnodo.xml de forma exitosa
+INFO:root: 2023-08-02 09:19:06.084160: Se cambio la cadena de texto fontSize":"f"
+INFO:root: 2023-08-02 09:19:06.084160: por la cadena de texto fontSize":"f"
+INFO:root: 2023-08-02 09:19:06.084160: Se comienza a modificar el  archivo C:/Entornos/Banco Promerica - 01/PRODUCCION/FrontEnd/STE/view_configuration/PROMERICA/xml/PROMERICA-vtnodo.xml
+INFO:root: 2023-08-02 09:19:06.105308: Ha sido modificado el  archivo C:\Entornos\Banco Promerica - 01\PRODUCCION\FrontEnd\STE\view_configuration\PROMERICA\xml\PROMERICA-vtnodo.xml de forma exitosa
+INFO:root: 2023-08-02 09:19:06.105308: Se cambio la cadena de texto lang":"es-ES"
+INFO:root: 2023-08-02 09:19:06.105308: por la cadena de texto lang":"es-ES"
+INFO:root: 2023-08-02 09:19:06.105308: Se comienza a modificar el  archivo C:/Entornos/Banco Promerica - 01/PRODUCCION/FrontEnd/STE/view_configuration/PROMERICA/xml/PROMERICA-vtnodo.xml
+INFO:root: 2023-08-02 09:19:06.105308: Ha sido modificado el  archivo C:\Entornos\Banco Promerica - 01\PRODUCCION\FrontEnd\STE\view_configuration\PROMERICA\xml\PROMERICA-vtnodo.xml de forma exitosa
+INFO:root: 2023-08-02 09:19:06.105308: Se cambio la cadena de texto width":"100"
+INFO:root: 2023-08-02 09:19:06.105308: por la cadena de texto width":"546"
+INFO:root: 2023-08-02 09:19:06.105308: Se comienza a modificar el  archivo C:/Entornos/Banco Promerica - 01/PRODUCCION/FrontEnd/STE/view_configuration/PROMERICA/xml/PROMERICA-vtnodo.xml
+INFO:root: 2023-08-02 09:19:06.120939: Ha sido modificado el  archivo C:\Entornos\Banco Promerica - 01\PRODUCCION\FrontEnd\STE\view_configuration\PROMERICA\xml\PROMERICA-vtnodo.xml de forma exitosa
+INFO:root: 2023-08-02 09:19:06.120939: Se cambio la cadena de texto unitWidth":"vw"
+INFO:root: 2023-08-02 09:19:06.120939: por la cadena de texto unitWidth":""vw""
+INFO:root: 2023-08-02 09:19:06.120939: Se comienza a modificar el  archivo C:/Entornos/Banco Promerica - 01/PRODUCCION/FrontEnd/STE/view_configuration/PROMERICA/xml/PROMERICA-vtnodo.xml
+INFO:root: 2023-08-02 09:19:06.136560: Ha sido modificado el  archivo C:\Entornos\Banco Promerica - 01\PRODUCCION\FrontEnd\STE\view_configuration\PROMERICA\xml\PROMERICA-vtnodo.xml de forma exitosa
+INFO:root: 2023-08-02 09:19:06.136560: Se cambio la cadena de texto backgroundColor":"#ffffff"
+INFO:root: 2023-08-02 09:19:06.136560: por la cadena de texto backgroundColor":"#ffffff"
+INFO:root: 2023-08-02 09:19:06.136560: Se comienza a modificar el  archivo C:/Entornos/Banco Promerica - 01/PRODUCCION/FrontEnd/STE/view_configuration/PROMERICA/xml/PROMERICA-vtnodo.xml
+INFO:root: 2023-08-02 09:19:06.136560: Ha sido modificado el  archivo C:\Entornos\Banco Promerica - 01\PRODUCCION\FrontEnd\STE\view_configuration\PROMERICA\xml\PROMERICA-vtnodo.xml de forma exitosa
+INFO:root: 2023-08-02 09:19:06.136560: Se cambio la cadena de texto fontSize":"f"
+INFO:root: 2023-08-02 09:19:06.136560: por la cadena de texto fontSize":"f"
+INFO:root: 2023-08-02 09:19:06.136560: Se comienza a modificar el  archivo C:/Entornos/Banco Promerica - 01/PRODUCCION/FrontEnd/STE/view_configuration/PROMERICA/xml/PROMERICA-vtnodo.xml
+INFO:root: 2023-08-02 09:19:06.152205: Ha sido modificado el  archivo C:\Entornos\Banco Promerica - 01\PRODUCCION\FrontEnd\STE\view_configuration\PROMERICA\xml\PROMERICA-vtnodo.xml de forma exitosa
+INFO:root: 2023-08-02 09:19:06.152205: Se cambio la cadena de texto fontColor":"#000000"
+INFO:root: 2023-08-02 09:19:06.152205: por la cadena de texto fontColor":"#000000"
+INFO:root: 2023-08-02 09:19:06.152205: Se comienza a modificar el  archivo C:/Entornos/Banco Promerica - 01/PRODUCCION/FrontEnd/STE/view_configuration/PROMERICA/xml/PROMERICA-vtnodo.xml
+INFO:root: 2023-08-02 09:19:06.167808: Ha sido modificado el  archivo C:\Entornos\Banco Promerica - 01\PRODUCCION\FrontEnd\STE\view_configuration\PROMERICA\xml\PROMERICA-vtnodo.xml de forma exitosa
+INFO:root: 2023-08-02 09:19:06.167808: Se cambio la cadena de texto backgroundColor":"#ffffff"
+INFO:root: 2023-08-02 09:19:06.167808: por la cadena de texto backgroundColor":"#ffffff"
+INFO:root: 2023-08-02 09:19:06.167808: Se comienza a modificar el  archivo C:/Entornos/Banco Promerica - 01/PRODUCCION/FrontEnd/STE/view_configuration/PROMERICA/xml/PROMERICA-vtnodo.xml
+INFO:root: 2023-08-02 09:19:06.167808: Ha sido modificado el  archivo C:\Entornos\Banco Promerica - 01\PRODUCCION\FrontEnd\STE\view_configuration\PROMERICA\xml\PROMERICA-vtnodo.xml de forma exitosa
+INFO:root: 2023-08-02 09:19:06.167808: Se cambio la cadena de texto fontColor":"#000000"
+INFO:root: 2023-08-02 09:19:06.167808: por la cadena de texto fontColor":"#000000"
+INFO:root: 2023-08-02 09:19:07.932007: Se esta examinando el archivo
+INFO:root: 2023-08-02 09:19:10.771992: Se esta examinando el archivo
+INFO:root: 2023-08-02 09:19:15.406400: Fin de la ejecucion de la Aplicacion

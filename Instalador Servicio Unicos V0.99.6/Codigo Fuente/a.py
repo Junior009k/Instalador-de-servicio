@@ -1,0 +1,6 @@
+labelReporteriaVQDB.place(x=40,y=90)
+TextboxReporteriaVQDB.place(x=40,y=110)
+labelReporteriaVQMSMQWebConfig.place(x=40,y=130)
+TextboxReporteriaVQMSMQWebConfig.place(x=40,y=150)
+labelReporteriaVQMSMQMiddlewareSTE.place(x=40,y=170)
+TextboxReporteriaVQMSMQMiddlewareSTE.place(x=40,y=190)

@@ -1,0 +1,167 @@
+INFO:root: 2023-05-23 07:58:25.345023: Inicializacion de la Aplicacion
+INFO:root: 2023-05-23 07:58:28.292708: Se esta examinando el archivo
+INFO:root: 2023-05-23 07:59:55.069068: Se establecio el inicio Automatico
+INFO:root: 2023-05-23 08:01:46.290709: Se esta ejecutando la instalacion del servicio
+INFO:root: 2023-05-23 08:01:46.290709: Se establecio el inicio Automatico
+INFO:root: 2023-05-23 08:01:46.290709: Inicializacion De La instalacion del servicio
+INFO:root: 2023-05-23 08:01:46.526883: El servicio servicio prueba se ha instalado exitosamente
+INFO:root: 2023-05-23 08:01:46.526883: Finalizacion de la instalacion del servicio
+INFO:root: 2023-05-23 08:02:00.884306: Se establecio el inicio Automatico
+INFO:root: 2023-05-23 08:20:48.306494: Se esta seleccionando el directorio para la creacion de la aplicacion
+INFO:root: 2023-05-23 08:21:06.722662: Se selecciono el directorio C:/SidesysCitas/FrontEnd/STE
+INFO:root: 2023-05-23 08:22:25.319453: Se comienza a crear la aplicacion
+INFO:root: 2023-05-23 08:22:25.320819: Inicializacion De la creacion de la aplicacion Site-prueba-STE 
+ERROR:root: 2023-05-23 08:22:26.497689: La carpeta Site-prueba-STE no existe
+ERROR:root: 2023-05-23 08:22:26.497689: Error al crear la aplicacion Site-prueba-STE, valide que sea administrador
+INFO:root: 2023-05-23 08:24:57.379101: Se comienza a crear la aplicacion
+INFO:root: 2023-05-23 08:24:57.379101: Inicializacion De la creacion de la aplicacion Site-prueba-STE 
+ERROR:root: 2023-05-23 08:24:58.119406: La carpeta Site-prueba-STE no existe
+ERROR:root: 2023-05-23 08:24:58.119406: Error al crear la aplicacion Site-prueba-STE, valide que sea administrador
+INFO:root: 2023-05-23 08:33:48.806735: Se esta seleccionando el directorio para la creacion de la aplicacion
+INFO:root: 2023-05-23 08:35:19.991660: Se selecciono el directorio C:/SidesysCitas/Middleware/STE/ConfigFiles
+INFO:root: 2023-05-23 08:40:22.182773: Se comienza a modificar los UDLS
+INFO:root: 2023-05-23 08:40:22.182773: Comenzando a modificar el udl
+INFO:root: 2023-05-23 08:40:22.184842: Comenzando a modificar el udl de STE
+INFO:root: 2023-05-23 08:40:22.250396
+           1)Password=SOF
+           2)Persist Security Info=True
+           3)User ID=SOF
+           4)Initial Catalog=Promerica_STE 
+           5)Data Source=SIDE-DOM-QA02\MSSQLSERVER2019
+ 
+            
+INFO:root: 2023-05-23 08:40:22.250396
+           1)La nueva clave es SOF
+           2)La nueva base de datos es STE
+           3)El nuevo usuario es SOF
+           4)El nuevo servidor es 192.168.104.93 
+            
+INFO:root: 2023-05-23 08:40:22.264127
+           1)Password=usr_STE
+           2)Persist Security Info=True
+           3)User ID=usr_STE
+           4)Initial Catalog=Promerica_STE 
+           5)Data Source=SIDE-DOM-QA02\MSSQLSERVER2019
+ 
+            
+INFO:root: 2023-05-23 08:40:22.264127
+           1)La nueva clave es usr_STE
+           2)La nueva base de datos es STE
+           3)El nuevo usuario es usr_STE
+           4)El nuevo servidor es 192.168.104.93 
+            
+INFO:root: 2023-05-23 08:40:22.270396
+           1)Password=usr_STE
+           2)Persist Security Info=True
+           3)User ID=usr_STE
+           4)Initial Catalog=Promerica_STE 
+           5)Data Source=SIDE-DOM-QA02\MSSQLSERVER2019
+ 
+            
+INFO:root: 2023-05-23 08:40:22.270396
+           1)La nueva clave es usr_STE
+           2)La nueva base de datos es STE
+           3)El nuevo usuario es usr_STE
+           4)El nuevo servidor es 192.168.104.93 
+            
+INFO:root: 2023-05-23 08:40:22.280112
+           1)Password=STE
+           2)Persist Security Info=True
+           3)User ID=usr_STE
+           4)Initial Catalog=!Test_STE_Unique 
+           5)Data Source=localhost\SQLExpress
+ 
+            
+INFO:root: 2023-05-23 08:40:22.280112
+           1)La nueva clave es usr_STE
+           2)La nueva base de datos es STE
+           3)El nuevo usuario es usr_STE
+           4)El nuevo servidor es 192.168.104.93 
+            
+INFO:root: 2023-05-23 08:46:47.575651: Se esta seleccionando el directorio para la creacion de la aplicacion
+INFO:root: 2023-05-23 08:47:13.768619: Se selecciono el directorio 
+INFO:root: 2023-05-23 08:47:17.201703: Fin de la ejecucion de la Aplicacion
+INFO:root: 2023-05-23 08:51:13.788341: Inicializacion de la Aplicacion
+INFO:root: 2023-05-23 08:51:18.581138: Se esta seleccionando el directorio para la creacion de la aplicacion
+INFO:root: 2023-05-23 08:51:33.163333: Se selecciono el directorio C:/SidesysCitas
+INFO:root: 2023-05-23 08:51:36.150517: Se esta seleccionando el directorio para la creacion de la aplicacion
+INFO:root: 2023-05-23 08:51:40.571305: Se selecciono el directorio 
+INFO:root: 2023-05-23 08:51:41.153660: Fin de la ejecucion de la Aplicacion
+INFO:root: 2023-05-23 08:51:46.680693: Inicializacion de la Aplicacion
+INFO:root: 2023-05-23 08:52:09.451731: Se esta seleccionando el directorio para la creacion de la aplicacion
+INFO:root: 2023-05-23 08:55:35.395666: Se selecciono el directorio C:/SidesysCitas
+INFO:root: 2023-05-23 08:55:37.010017: Fin de la ejecucion de la Aplicacion
+INFO:root: 2023-05-23 08:57:09.171058: Inicializacion de la Aplicacion
+INFO:root: 2023-05-23 08:57:12.785927: Se esta seleccionando el directorio para la creacion de la aplicacion
+INFO:root: 2023-05-23 08:57:14.877818: Se selecciono el directorio C:/SidesysCitas
+INFO:root: 2023-05-23 08:58:54.621781: Se comienza a modificar  los puertos
+INFO:root: 2023-05-23 08:58:54.622812: Paso todas las pruebas, comenzando proceso de modificacion de los puertos
+INFO:root: 2023-05-23 08:58:54.622812: Se inicia con el proceso de cambio de puerto
+INFO:root: 2023-05-23 08:58:54.635461: Se cambio la cadena de texto <endpoint name="MiddleWare" address="net.tcp://localhost:10791/ApplicationService/" 
+INFO:root: 2023-05-23 08:58:54.635461: por la cadena de texto <endpoint name="MiddleWare" address="net.tcp://localhost:04500/ApplicationService/" 
+INFO:root: 2023-05-23 08:58:54.635461: Ha sido modificado el  archivo C:\SidesysCitas\Middleware\STE\bin\serviceModelConfig\services.config de forma exitosa
+INFO:root: 2023-05-23 08:58:54.640726: Se cambio la cadena de texto add baseAddress="http://localhost:8091/Design_Time_Addresses/Sidesys.Services/ApplicationService/"
+INFO:root: 2023-05-23 08:58:54.640726: por la cadena de texto add baseAddress="http://localhost:0452/Design_Time_Addresses/Sidesys.Services/ApplicationService/"
+INFO:root: 2023-05-23 08:58:54.647750: Ha sido modificado el  archivo C:\SidesysCitas\Middleware\STE\bin\serviceModelConfig\services.config de forma exitosa
+INFO:root: 2023-05-23 08:58:54.649623: Se cambio la cadena de texto address="net.tcp://localhost:10891/ApplicationServiceNode/"
+INFO:root: 2023-05-23 08:58:54.649623: por la cadena de texto address="net.tcp://localhost:04501/ApplicationServiceNode/"
+INFO:root: 2023-05-23 08:58:54.649623: Ha sido modificado el  archivo C:\SidesysCitas\Middleware\STE\bin\serviceModelConfig\client.config de forma exitosa
+INFO:root: 2023-05-23 08:58:54.649623: El path no ha podido ser cambiado, asegurese que dentro del campo ha modificar no halla espacio en blanco
+INFO:root: 2023-05-23 08:58:54.649623: El path no ha podido ser cambiado, asegurese que dentro del campo ha modificar no halla espacio en blanco
+INFO:root: 2023-05-23 08:58:54.649623: Se cambio la cadena de texto <endpoint name="MiddleWareNode" address="net.tcp://localhost:8889/ApplicationServiceNode/" 
+INFO:root: 2023-05-23 08:58:54.649623: por la cadena de texto <endpoint name="MiddleWareNode" address="net.tcp://localhost:04501/ApplicationServiceNode/" 
+INFO:root: 2023-05-23 08:58:54.649623: Ha sido modificado el  archivo C:\SidesysCitas\Middleware\STE\bin\serviceModelConfig\services.config de forma exitosa
+INFO:root: 2023-05-23 08:58:54.663719: Se cambio la cadena de texto add baseAddress="http://localhost:8733/Design_Time_Addresses/Sidesys.Services/ApplicationServiceNode/"
+INFO:root: 2023-05-23 08:58:54.663719: por la cadena de texto add baseAddress="http://localhost:0453/Design_Time_Addresses/Sidesys.Services/ApplicationServiceNode/"
+INFO:root: 2023-05-23 08:58:54.663719: Ha sido modificado el  archivo C:\SidesysCitas\Middleware\STE\bin\serviceModelConfig\services.config de forma exitosa
+INFO:root: 2023-05-23 08:58:54.663719: El path no ha podido ser cambiado, asegurese que dentro del campo ha modificar no halla espacio en blanco
+INFO:root: 2023-05-23 08:58:54.667745: Se cambio la cadena de texto <endpoint name="MiddleWare" address="net.tcp://localhost:10791/ApplicationService/"
+INFO:root: 2023-05-23 08:58:54.667745: por la cadena de texto <endpoint name="MiddleWare" address="net.tcp://localhost:04500/ApplicationService/" 
+INFO:root: 2023-05-23 08:58:54.667745: Ha sido modificado el  archivo C:\SidesysCitas\Frontend\STE\ConfigFiles\client.config de forma exitosa
+INFO:root: 2023-05-23 08:58:54.681305: Se cambio la cadena de texto <endpoint name="MiddleWareNode" address="net.tcp://localhost:10891/ApplicationServiceNode/"
+INFO:root: 2023-05-23 08:58:54.681305: por la cadena de texto <endpoint name="MiddleWareNode" address="net.tcp://localhost:04501/ApplicationServiceNode/" 
+INFO:root: 2023-05-23 08:58:54.681305: Ha sido modificado el  archivo C:\SidesysCitas\Frontend\STE\ConfigFiles\client.config de forma exitosa
+INFO:root: 2023-05-23 09:46:30.252520: Fin de la ejecucion de la Aplicacion
+INFO:root: 2023-05-23 09:49:21.614802: Inicializacion de la Aplicacion
+INFO:root: 2023-05-23 09:49:41.417874: Se esta seleccionando el directorio para la creacion de la aplicacion
+INFO:root: 2023-05-23 09:52:30.347186: Se selecciono el directorio C:/Sidesys/TSS
+INFO:root: 2023-05-23 10:15:14.218935: Se comienza a modificar  Citas
+INFO:root: 2023-05-23 10:15:14.218935: Paso todas las pruebas, comenzando proceso de modificacion de los puertos
+INFO:root: 2023-05-23 10:15:14.238098: Se cambio la cadena de texto <base href="../appSpa/">
+INFO:root: 2023-05-23 10:15:14.238098: por la cadena de texto <base href="http://192.168.104.93/TSSPRUEBA-Citas/appSpa/"> 
+INFO:root: 2023-05-23 10:15:14.238098: Ha sido modificado el  archivo C:\Sidesys\TSS\FrontEnd\Appointment\appSpa\index.html de forma exitosa
+INFO:root: 2023-05-23 10:15:14.238098: El path no ha podido ser cambiado, asegurese que dentro del campo ha modificar no halla espacio en blanco
+INFO:root: 2023-05-23 10:15:14.248613: Se cambio la cadena de texto <OperationalPath>http://192.168.104.92/TSS-Citas/POC/POCView.aspx</OperationalPath>
+INFO:root: 2023-05-23 10:15:14.248613: por la cadena de texto <OperationalPath>http://192.168.104.93/TSSPRUEBA-Citas/POC/POCView.aspx</OperationalPath>
+INFO:root: 2023-05-23 10:15:14.248613: Ha sido modificado el  archivo C:\Sidesys\TSS\FrontEnd\Appointment\bin\Application.config de forma exitosa
+INFO:root: 2023-05-23 10:15:14.248613: El path no ha podido ser cambiado, asegurese que dentro del campo ha modificar no halla espacio en blanco
+INFO:root: 2023-05-23 10:15:14.253585: Se cambio la cadena de texto <base href="http://192.168.104.92/TSS-CitasWeb/" />
+INFO:root: 2023-05-23 10:15:14.253585: por la cadena de texto <base href="http://192.168.104.93/TSSPRUEBA-Citasweb/" />
+INFO:root: 2023-05-23 10:15:14.253585: Ha sido modificado el  archivo C:\Sidesys\TSS\FrontEnd\AppointmentWeb\index.html de forma exitosa
+INFO:root: 2023-05-23 10:15:14.264701: Se cambio la cadena de texto <add key="messageQueuePath" value="FormatName:DIRECT=TCP:[MSMQ_IP]\private$\AppointmentVQIntegration" />
+INFO:root: 2023-05-23 10:15:14.264701: por la cadena de texto <add key="messageQueuePath" value="FormatName:DIRECT=TCP:192.168.104.93\private$\TSSColademensajeria" />
+INFO:root: 2023-05-23 10:15:14.264701: Ha sido modificado el  archivo C:\Sidesys\TSS\FrontEnd\AppointmentWeb\Web.config de forma exitosa
+INFO:root: 2023-05-23 10:15:14.280348: Se cambio la cadena de texto "appointmentApiUrl": "http://192.168.104.92/TSS-CitasWebService/",
+  "customThemeBaseUrl": "./assets/custom_themes/",
+  "apiClientId": "ss_appointment_angular",
+  "apiClientSecret": "e86RPGzfhmIOuEMQ",
+  "recaptchaClientKey
+INFO:root: 2023-05-23 10:15:14.280348: por la cadena de texto "appointmentApiUrl": "http://192.168.104.93/TSSPRUEBA-Citaswebservice",
+  "recaptchaClientKey
+INFO:root: 2023-05-23 10:15:14.280348: Ha sido modificado el  archivo C:\Sidesys\TSS\FrontEnd\AppointmentWeb\assets\settings.json de forma exitosa
+INFO:root: 2023-05-23 10:15:14.283489: Se cambio la cadena de texto <OutgoingEventsSendQueuePath>FORMATNAME:DIRECT=TCP:192.168.104.92\private$\tss</OutgoingEventsSendQueuePath>
+INFO:root: 2023-05-23 10:15:14.283489: por la cadena de texto <OutgoingEventsSendQueuePath>FormatName:DIRECT=TCP:192.168.104.93\private$\TSSColademensajeria</OutgoingEventsSendQueuePath>
+INFO:root: 2023-05-23 10:15:14.283489: Ha sido modificado el  archivo C:\Sidesys\TSS\Middleware\Appointment\ConfigFiles\Appointment.config de forma exitosa
+INFO:root: 2023-05-23 10:15:14.300460: Se cambio la cadena de texto <MSMQWebChannel>FORMATNAME:DIRECT=TCP:192.168.104.92\private$\tss</MSMQWebChannel>
+INFO:root: 2023-05-23 10:15:14.300460: por la cadena de texto <MSMQWebChannel>FormatName:DIRECT=TCP:192.168.104.93\private$\TSSColademensajeria</MSMQWebChannel>
+INFO:root: 2023-05-23 10:15:14.300460: Ha sido modificado el  archivo C:\Sidesys\TSS\Middleware\Appointment\ConfigFiles\Appointment.config de forma exitosa
+INFO:root: 2023-05-23 10:15:14.312121: Se cambio la cadena de texto <add key="dataExportServer" value="http://192.168.104.92/TSS-STE"/>
+INFO:root: 2023-05-23 10:15:14.312121: por la cadena de texto <add key="dataExportServer" value="http://192.168.104.93/TSSPRUEBA-STE"/>
+INFO:root: 2023-05-23 10:15:14.312121: Ha sido modificado el  archivo C:\Sidesys\TSS\Middleware\Appointment\bin\Sidesys.Services.ApplicationService.exe.config de forma exitosa
+INFO:root: 2023-05-23 10:15:14.312121: Se cambio la cadena de texto <add key="virtualQueueCallBackQueuePath" value="FORMATNAME:DIRECT=TCP:192.168.104.92\private$\tss" />
+INFO:root: 2023-05-23 10:15:14.312121: por la cadena de texto <add key="virtualQueueCallBackQueuePath" value="FormatName:DIRECT=TCP:192.168.104.93\private$\TSSColademensajeria" />
+INFO:root: 2023-05-23 10:15:14.312121: Ha sido modificado el  archivo C:\Sidesys\TSS\Middleware\Appointment\bin\Sidesys.Services.ApplicationService.exe.config de forma exitosa
+INFO:root: 2023-05-23 10:15:14.332467: Se cambio la cadena de texto <OutgoingEventsSendQueuePath>FORMATNAME:DIRECT=TCP:192.168.104.92\private$\tss</OutgoingEventsSendQueuePath>
+INFO:root: 2023-05-23 10:15:14.332467: por la cadena de texto <OutgoingEventsSendQueuePath>FormatName:DIRECT=TCP:192.168.104.93\private$\TSSColademensajeria</OutgoingEventsSendQueuePath>
+INFO:root: 2023-05-23 10:15:14.332467: Ha sido modificado el  archivo C:\Sidesys\TSS\Middleware\STE\ConfigFiles\DataExport.config de forma exitosa
+INFO:root: 2023-05-23 10:28:54.067741: Fin de la ejecucion de la Aplicacion

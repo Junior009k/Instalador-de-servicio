@@ -1,0 +1,26 @@
+INFO:root: 2023-05-22 17:06:34.753199: Inicializacion de la Aplicacion
+INFO:root: 2023-05-22 17:06:40.597623: guardando los datos de configuracion
+INFO:root:2023-05-22 17:06:40.597623: Estableciendo color Crema al frame 1 id del color 7
+INFO:root:2023-05-22 17:06:40.597623: Estableciendo color Purpura al frame 2 id del color 4
+INFO:root:2023-05-22 17:06:40.597623: Estableciendo color Rojo al frame 3 id del color 1
+INFO:root:2023-05-22 17:06:40.597623: Estableciendo color Azul al frame 4 id del color 3
+INFO:root:2023-05-22 17:06:40.597623: Estableciendo color Azul al frame 5 id del color 3
+INFO:root:2023-05-22 17:06:40.597623: actualizando la tabla estadoColor en el frame 1 actualiza el valor del campo idColor con 7)
+INFO:root:2023-05-22 17:06:40.597623: actualizando la tabla estadoColor en el frame 2 actualiza el valor del campo idColor con 4)
+INFO:root:2023-05-22 17:06:40.597623: actualizando la tabla estadoColor en el frame 3 actualiza el valor del campo idColor con 1)
+INFO:root:2023-05-22 17:06:40.597623: actualizando la tabla estadoColor en el frame 4 actualiza el valor del campo idColor con 3)
+INFO:root:2023-05-22 17:06:40.597623: actualizando la tabla estadoColor en el frame 5 actualiza el valor del campo idColor con 3)
+INFO:root: 2023-05-22 17:10:31.628469: Inicializacion de la Aplicacion
+INFO:root: 2023-05-22 17:10:43.091302: guardando los datos de configuracion
+INFO:root:2023-05-22 17:10:43.091302: Estableciendo color Crema al frame 1 id del color 7
+INFO:root:2023-05-22 17:10:43.091302: Estableciendo color Purpura al frame 2 id del color 4
+INFO:root:2023-05-22 17:10:43.091302: Estableciendo color Rojo al frame 3 id del color 1
+INFO:root:2023-05-22 17:10:43.091302: Estableciendo color Azul al frame 4 id del color 3
+INFO:root:2023-05-22 17:10:43.091302: Estableciendo color Amarillo al frame 5 id del color 5
+INFO:root:2023-05-22 17:10:43.091302: actualizando la tabla estadoColor en el frame 1 actualiza el valor del campo idColor con 7)
+INFO:root:2023-05-22 17:10:43.091302: actualizando la tabla estadoColor en el frame 2 actualiza el valor del campo idColor con 4)
+INFO:root:2023-05-22 17:10:43.091302: actualizando la tabla estadoColor en el frame 3 actualiza el valor del campo idColor con 1)
+INFO:root:2023-05-22 17:10:43.091302: actualizando la tabla estadoColor en el frame 4 actualiza el valor del campo idColor con 3)
+INFO:root:2023-05-22 17:10:43.091302: actualizando la tabla estadoColor en el frame 5 actualiza el valor del campo idColor con 5)
+INFO:root: 2023-05-22 17:11:37.475584: Fin de la ejecucion de la Aplicacion
+INFO:root: 2023-05-22 17:11:40.810777: Fin de la ejecucion de la Aplicacion

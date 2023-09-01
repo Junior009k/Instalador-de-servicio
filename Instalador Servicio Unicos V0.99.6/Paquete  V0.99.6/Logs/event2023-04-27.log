@@ -1,0 +1,92 @@
+INFO:root: 2023-04-27 12:49:08.850252: Inicializacion de la Aplicacion
+INFO:root: 2023-04-27 12:49:23.335939: Inicializacion de la Aplicacion
+INFO:root: 2023-04-27 12:49:50.905450: Inicializacion de la Aplicacion
+INFO:root: 2023-04-27 12:50:05.079362: Inicializacion de la Aplicacion
+INFO:root: 2023-04-27 12:50:13.613986: Fin de la ejecucion de la Aplicacion
+INFO:root: 2023-04-27 12:50:20.656002: Inicializacion de la Aplicacion
+INFO:root: 2023-04-27 12:50:38.520726: Inicializacion de la Aplicacion
+INFO:root: 2023-04-27 12:50:58.233832: Inicializacion de la Aplicacion
+INFO:root: 2023-04-27 12:54:07.778764: Fin de la ejecucion de la Aplicacion
+INFO:root: 2023-04-27 12:54:12.084765: Inicializacion de la Aplicacion
+INFO:root: 2023-04-27 12:55:50.603402: Inicializacion de la Aplicacion
+INFO:root: 2023-04-27 12:56:01.747192: Inicializacion de la Aplicacion
+INFO:root: 2023-04-27 12:56:12.141118: Inicializacion de la Aplicacion
+INFO:root: 2023-04-27 12:56:28.050973: Inicializacion de la Aplicacion
+INFO:root: 2023-04-27 12:56:42.139366: Inicializacion de la Aplicacion
+INFO:root: 2023-04-27 12:56:54.523079: Fin de la ejecucion de la Aplicacion
+INFO:root: 2023-04-27 12:58:26.029966: Inicializacion de la Aplicacion
+INFO:root: 2023-04-27 12:58:36.221829: Inicializacion de la Aplicacion
+INFO:root: 2023-04-27 12:58:38.509015: Fin de la ejecucion de la Aplicacion
+INFO:root: 2023-04-27 12:58:53.111281: Inicializacion de la Aplicacion
+INFO:root: 2023-04-27 12:59:00.788609: Inicializacion de la Aplicacion
+INFO:root: 2023-04-27 12:59:03.025357: Fin de la ejecucion de la Aplicacion
+INFO:root: 2023-04-27 12:59:40.900805: Inicializacion de la Aplicacion
+INFO:root: 2023-04-27 13:00:00.166091: Inicializacion de la Aplicacion
+INFO:root: 2023-04-27 13:00:02.404401: Fin de la ejecucion de la Aplicacion
+INFO:root: 2023-04-27 13:00:39.832120: Inicializacion de la Aplicacion
+INFO:root: 2023-04-27 13:00:47.801504: Inicializacion de la Aplicacion
+INFO:root: 2023-04-27 13:00:53.318717: Fin de la ejecucion de la Aplicacion
+INFO:root: 2023-04-27 13:01:58.587710: Inicializacion de la Aplicacion
+INFO:root: 2023-04-27 13:02:17.489480: Fin de la ejecucion de la Aplicacion
+INFO:root: 2023-04-27 13:02:20.118658: Inicializacion de la Aplicacion
+INFO:root: 2023-04-27 13:02:22.439724: Fin de la ejecucion de la Aplicacion
+INFO:root: 2023-04-27 13:09:29.422847: Inicializacion de la Aplicacion
+INFO:root: 2023-04-27 13:09:42.917676: Fin de la ejecucion de la Aplicacion
+INFO:root: 2023-04-27 13:11:42.115560: Inicializacion de la Aplicacion
+INFO:root: 2023-04-27 13:12:00.503062: Inicializacion de la Aplicacion
+INFO:root: 2023-04-27 13:12:36.749744: Inicializacion de la Aplicacion
+INFO:root: 2023-04-27 13:12:54.544529: Inicializacion de la Aplicacion
+INFO:root: 2023-04-27 13:13:14.046133: Inicializacion de la Aplicacion
+INFO:root: 2023-04-27 13:13:35.823827: Inicializacion de la Aplicacion
+INFO:root: 2023-04-27 13:14:00.301919: Inicializacion de la Aplicacion
+INFO:root: 2023-04-27 13:14:15.280914: Fin de la ejecucion de la Aplicacion
+INFO:root: 2023-04-27 14:00:10.058529: Inicializacion de la Aplicacion
+INFO:root: 2023-04-27 14:00:43.365566: Fin de la ejecucion de la Aplicacion
+INFO:root: 2023-04-27 14:00:48.867193: Inicializacion de la Aplicacion
+INFO:root: 2023-04-27 14:01:54.286740: Fin de la ejecucion de la Aplicacion
+INFO:root: 2023-04-27 14:01:56.068745: Inicializacion de la Aplicacion
+INFO:root: 2023-04-27 14:02:01.602746: guardando los datos de configuracion
+INFO:root:2023-04-27 14:02:01.605750: Estableciendo colorRojo al frame 1 id del color 1
+INFO:root:2023-04-27 14:02:01.605750: Estableciendo colorVerde al frame 2 id del color 2
+INFO:root:2023-04-27 14:02:01.605750: Estableciendo colorAzul al frame 3 id del color 3
+INFO:root:actualizando la tabla estadoColor en el frame 1 actualiza el valor del campo idColor con 1)
+INFO:root:actualizando la tabla estadoColor en el frame 2 actualiza el valor del campo idColor con 2)
+INFO:root:actualizando la tabla estadoColor en el frame 3 actualiza el valor del campo idColor con 3)
+INFO:root: 2023-04-27 14:03:32.598387: Inicializacion de la Aplicacion
+INFO:root: 2023-04-27 14:03:37.250393: guardando los datos de configuracion
+INFO:root:2023-04-27 14:03:37.251392: Estableciendo colorVerde al frame 1 id del color 2
+INFO:root:2023-04-27 14:03:37.251392: Estableciendo colorVerde al frame 2 id del color 2
+INFO:root:2023-04-27 14:03:37.251392: Estableciendo colorAzul al frame 3 id del color 3
+INFO:root:actualizando la tabla estadoColor en el frame 1 actualiza el valor del campo idColor con 2)
+INFO:root:actualizando la tabla estadoColor en el frame 2 actualiza el valor del campo idColor con 2)
+INFO:root:actualizando la tabla estadoColor en el frame 3 actualiza el valor del campo idColor con 3)
+INFO:root: 2023-04-27 14:03:55.975414: Inicializacion de la Aplicacion
+INFO:root: 2023-04-27 14:04:13.926431: Fin de la ejecucion de la Aplicacion
+INFO:root: 2023-04-27 14:05:04.324024: Inicializacion de la Aplicacion
+INFO:root: 2023-04-27 14:05:09.930942: guardando los datos de configuracion
+INFO:root:2023-04-27 14:05:09.930942: Estableciendo colorAzul al frame 1 id del color 3
+INFO:root:2023-04-27 14:05:09.930942: Estableciendo colorVerde al frame 2 id del color 2
+INFO:root:2023-04-27 14:05:09.930942: Estableciendo colorAzul al frame 3 id del color 3
+INFO:root:actualizando la tabla estadoColor en el frame 1 actualiza el valor del campo idColor con 3)
+INFO:root:actualizando la tabla estadoColor en el frame 2 actualiza el valor del campo idColor con 2)
+INFO:root:actualizando la tabla estadoColor en el frame 3 actualiza el valor del campo idColor con 3)
+INFO:root: 2023-04-27 14:05:24.212962: Inicializacion de la Aplicacion
+INFO:root: 2023-04-27 14:05:28.741970: Fin de la ejecucion de la Aplicacion
+INFO:root: 2023-04-27 14:05:49.424990: Inicializacion de la Aplicacion
+INFO:root: 2023-04-27 14:06:01.283999: guardando los datos de configuracion
+INFO:root:2023-04-27 14:06:01.283999: Estableciendo colorRojo al frame 1 id del color 1
+INFO:root:2023-04-27 14:06:01.283999: Estableciendo colorVerde al frame 2 id del color 2
+INFO:root:2023-04-27 14:06:01.283999: Estableciendo colorAzul al frame 3 id del color 3
+INFO:root:actualizando la tabla estadoColor en el frame 1 actualiza el valor del campo idColor con 1)
+INFO:root:actualizando la tabla estadoColor en el frame 2 actualiza el valor del campo idColor con 2)
+INFO:root:actualizando la tabla estadoColor en el frame 3 actualiza el valor del campo idColor con 3)
+INFO:root: 2023-04-27 14:06:14.158018: Inicializacion de la Aplicacion
+INFO:root: 2023-04-27 14:06:20.024494: guardando los datos de configuracion
+INFO:root:2023-04-27 14:06:20.025496: Estableciendo colorVerde al frame 1 id del color 2
+INFO:root:2023-04-27 14:06:20.025496: Estableciendo colorVerde al frame 2 id del color 2
+INFO:root:2023-04-27 14:06:20.025496: Estableciendo colorAzul al frame 3 id del color 3
+INFO:root:actualizando la tabla estadoColor en el frame 1 actualiza el valor del campo idColor con 2)
+INFO:root:actualizando la tabla estadoColor en el frame 2 actualiza el valor del campo idColor con 2)
+INFO:root:actualizando la tabla estadoColor en el frame 3 actualiza el valor del campo idColor con 3)
+INFO:root: 2023-04-27 14:06:39.182693: Inicializacion de la Aplicacion
+INFO:root: 2023-04-27 14:07:10.283747: Fin de la ejecucion de la Aplicacion
