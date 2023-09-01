@@ -1,0 +1,250 @@
+INFO:root: 2023-07-21 08:23:42.700720: Inicializacion de la Aplicacion
+INFO:root: 2023-07-21 08:23:43.133328: La imagenes no fueron cargadas correctamente, valide que la carpeta img se encuentre en el aplicativo
+INFO:root: 2023-07-21 08:24:02.768527: Fin de la ejecucion de la Aplicacion
+INFO:root: 2023-07-21 08:45:00.806834: Inicializacion de la Aplicacion
+INFO:root: 2023-07-21 08:45:01.133249: La imagenes no fueron cargadas correctamente, valide que la carpeta img se encuentre en el aplicativo
+INFO:root: 2023-07-21 08:45:39.103492: guardando los datos de configuracion
+INFO:root:2023-07-21 08:45:39.104493: Estableciendo color Rosado al frame 1 id del color 6
+INFO:root:2023-07-21 08:45:39.104493: Estableciendo color Purpura al frame 2 id del color 4
+INFO:root:2023-07-21 08:45:39.104493: Estableciendo color Rojo al frame 3 id del color 1
+INFO:root:2023-07-21 08:45:39.104493: Estableciendo color Crema al frame 4 id del color 7
+INFO:root:2023-07-21 08:45:39.104493: Estableciendo color Crema al frame 5 id del color 7
+INFO:root:2023-07-21 08:45:39.104493: actualizando la tabla estadoColor en el frame 1 actualiza el valor del campo idColor con 6)
+INFO:root:2023-07-21 08:45:39.104493: actualizando la tabla estadoColor en el frame 2 actualiza el valor del campo idColor con 4)
+INFO:root:2023-07-21 08:45:39.104493: actualizando la tabla estadoColor en el frame 3 actualiza el valor del campo idColor con 1)
+INFO:root:2023-07-21 08:45:39.104493: actualizando la tabla estadoColor en el frame 4 actualiza el valor del campo idColor con 7)
+INFO:root:2023-07-21 08:45:39.104493: actualizando la tabla estadoColor en el frame 5 actualiza el valor del campo idColor con 7)
+INFO:root: 2023-07-21 08:45:44.187435: Fin de la ejecucion de la Aplicacion
+INFO:root: 2023-07-21 08:46:10.255501: Inicializacion de la Aplicacion
+INFO:root: 2023-07-21 08:46:10.502890: La imagenes no fueron cargadas correctamente, valide que la carpeta img se encuentre en el aplicativo
+INFO:root: 2023-07-21 08:46:18.063243: Se esta seleccionando el directorio para la creacion de la aplicacion
+INFO:root: 2023-07-21 08:46:31.199681: Se selecciono el directorio C:/Entornos/Clinica San Rafael/Centro Medico San Rafael/CMSR - eFlow 4.1.3/Despliegue/Entregable/1. Proceso de Intalacion
+INFO:root: 2023-07-21 08:48:34.466568: Se comienza a modificar  NME
+INFO:root: 2023-07-21 08:48:34.467878: La carpeta Middleware  existe
+INFO:root: 2023-07-21 08:48:34.468851: La carpeta FrontEnd  existe
+INFO:root: 2023-07-21 08:48:34.468851: Paso todas las pruebas, comenzando proceso de modificacion del Nuevo Modulo de Emision
+INFO:root: 2023-07-21 08:49:46.636762: Se comienza a modificar el  archivo C:\Entornos\Clinica San Rafael\Centro Medico San Rafael\CMSR - eFlow 4.1.3\Despliegue\Entregable\1. Proceso de Intalacion/FrontEnd/Sidesys.eFlow.Emission.API/Web.config
+INFO:root: 2023-07-21 08:49:46.646339: Ha sido modificado el  archivo C:\Entornos\Clinica San Rafael\Centro Medico San Rafael\CMSR - eFlow 4.1.3\Despliegue\Entregable\1. Proceso de Intalacion\FrontEnd\Sidesys.eFlow.Emission.API\Web.config de forma exitosa
+INFO:root: 2023-07-21 08:49:46.646339: Se cambio la cadena de texto <add key="eFlowServiceUrl" value="http://[eFlowServerName]/Services/EmissionService.svc"
+INFO:root: 2023-07-21 08:49:46.646339: por la cadena de texto <add key="eFlowServiceUrl" value="http://192.168.104.92:80/Services/EmissionService.svc"
+INFO:root: 2023-07-21 08:49:46.646339: Se comienza a modificar el  archivo C:\Entornos\Clinica San Rafael\Centro Medico San Rafael\CMSR - eFlow 4.1.3\Despliegue\Entregable\1. Proceso de Intalacion/FrontEnd/Sidesys.eFlow.Emission.API/Web.config
+INFO:root: 2023-07-21 08:49:46.661963: Ha sido modificado el  archivo C:\Entornos\Clinica San Rafael\Centro Medico San Rafael\CMSR - eFlow 4.1.3\Despliegue\Entregable\1. Proceso de Intalacion\FrontEnd\Sidesys.eFlow.Emission.API\Web.config de forma exitosa
+INFO:root: 2023-07-21 08:49:46.661963: Se cambio la cadena de texto  <add key="AllowedCrossOrigins" value="[eFlowServerName]"
+INFO:root: 2023-07-21 08:49:46.661963: por la cadena de texto <add key="AllowedCrossOrigins" value="http://192.168.104.92:80"
+INFO:root: 2023-07-21 08:49:46.661963: Se comienza a modificar el  archivo C:\Entornos\Clinica San Rafael\Centro Medico San Rafael\CMSR - eFlow 4.1.3\Despliegue\Entregable\1. Proceso de Intalacion/FrontEnd/STE/SPA/assets/configuration/emission.config.json
+INFO:root: 2023-07-21 08:49:46.693211: Ha sido modificado el  archivo C:\Entornos\Clinica San Rafael\Centro Medico San Rafael\CMSR - eFlow 4.1.3\Despliegue\Entregable\1. Proceso de Intalacion\FrontEnd\STE\SPA\assets\configuration\emission.config.json de forma exitosa
+INFO:root: 2023-07-21 08:49:46.693211: Se cambio la cadena de texto "emissionApiEndpoint": "http://[IP_SERVER]/[EMISSIONAPI]",
+INFO:root: 2023-07-21 08:49:46.693211: por la cadena de texto "emissionApiEndpoint": "http://192.168.104.92:81",
+INFO:root: 2023-07-21 08:51:34.597264: Se esta seleccionando el directorio para la creacion de la aplicacion
+INFO:root: 2023-07-21 08:51:44.153618: Se selecciono el directorio C:/Entornos/Superintendencia - 04/PRODUCCION
+INFO:root: 2023-07-21 08:51:49.888722: Se esta seleccionando el directorio para la creacion de la aplicacion
+INFO:root: 2023-07-21 08:51:52.048066: Se selecciono el directorio C:/Entornos/Superintendencia - 04/PRODUCCION
+INFO:root: 2023-07-21 08:52:05.067351: Fin de la ejecucion de la Aplicacion
+INFO:root: 2023-07-21 08:57:54.959870: Inicializacion de la Aplicacion
+INFO:root: 2023-07-21 08:57:55.520470: La imagenes no fueron cargadas correctamente, valide que la carpeta img se encuentre en el aplicativo
+INFO:root: 2023-07-21 08:58:06.612418: Se esta seleccionando el directorio para la creacion de la aplicacion
+INFO:root: 2023-07-21 08:58:09.308972: Se selecciono el directorio C:/Entornos/Superintendencia - 04/PRODUCCION
+INFO:root: 2023-07-21 08:59:59.432648: Se comienza a modificar  NME
+INFO:root: 2023-07-21 08:59:59.433647: La carpeta Middleware  existe
+INFO:root: 2023-07-21 08:59:59.434646: La carpeta FrontEnd  existe
+INFO:root: 2023-07-21 08:59:59.434646: Paso todas las pruebas, comenzando proceso de modificacion del Web sevice de citas
+INFO:root: 2023-07-21 08:59:59.434646: Se comienza a modificar el  archivo C:\Entornos\Superintendencia - 04\PRODUCCION/FrontEnd/STE/SPA/assets/configuration/emission.config.json
+INFO:root: 2023-07-21 08:59:59.461805: Ha sido modificado el  archivo C:\Entornos\Superintendencia - 04\PRODUCCION\FrontEnd\STE\SPA\assets\configuration\emission.config.json de forma exitosa
+INFO:root: 2023-07-21 08:59:59.461805: Se cambio la cadena de texto "appointmentApiEndpoint": "[URL_CITASWEBSERVICE]",
+INFO:root: 2023-07-21 08:59:59.461805: por la cadena de texto "appointmentApiEndpoint": "http://192.168.104.92/PAppointmentWebService",
+INFO:root: 2023-07-21 09:04:15.954790: Se esta seleccionando el directorio para la carga de datos de NME
+INFO:root: 2023-07-21 09:04:20.633842: Se selecciono el directorio C:/Entornos/Superintendencia - 04/PRODUCCION
+INFO:root: 2023-07-21 09:07:53.018445: Se comienza a modificar  emission.config
+INFO:root: 2023-07-21 09:07:53.019443: La carpeta Middleware  existe
+INFO:root: 2023-07-21 09:07:53.019443: La carpeta FrontEnd  existe
+INFO:root: 2023-07-21 09:07:53.019443: Paso todas las pruebas, comenzando proceso de modificacion del Nuevo Modulo de Emision
+INFO:root: 2023-07-21 09:07:54.064392: Se comienza a modificar el  archivo C:\Entornos\Superintendencia - 04\PRODUCCION/FrontEnd/STE/SPA/assets/configuration/emission.config.json
+INFO:root: 2023-07-21 09:07:54.084215: Ha sido modificado el  archivo C:\Entornos\Superintendencia - 04\PRODUCCION\FrontEnd\STE\SPA\assets\configuration\emission.config.json de forma exitosa
+INFO:root: 2023-07-21 09:07:54.084215: Se cambio la cadena de texto "showButton": false,
+INFO:root: 2023-07-21 09:07:54.084215: por la cadena de texto "showButton": true,
+INFO:root: 2023-07-21 09:08:05.617739: Se comienza a modificar  emission.config
+INFO:root: 2023-07-21 09:08:05.619081: La carpeta Middleware  existe
+INFO:root: 2023-07-21 09:08:05.619506: La carpeta FrontEnd  existe
+INFO:root: 2023-07-21 09:08:05.619506: Paso todas las pruebas, comenzando proceso de modificacion del Nuevo Modulo de Emision
+INFO:root: 2023-07-21 09:08:06.647725: Se comienza a modificar el  archivo C:\Entornos\Superintendencia - 04\PRODUCCION/FrontEnd/STE/SPA/assets/configuration/emission.config.json
+INFO:root: 2023-07-21 09:08:06.657958: Ha sido modificado el  archivo C:\Entornos\Superintendencia - 04\PRODUCCION\FrontEnd\STE\SPA\assets\configuration\emission.config.json de forma exitosa
+INFO:root: 2023-07-21 09:08:06.657958: Se cambio la cadena de texto "showButton": true,
+INFO:root: 2023-07-21 09:08:06.657958: por la cadena de texto "showButton": false,
+INFO:root: 2023-07-21 09:08:22.434192: Se comienza a modificar  emission.config
+INFO:root: 2023-07-21 09:08:22.434192: La carpeta Middleware  existe
+INFO:root: 2023-07-21 09:08:22.435275: La carpeta FrontEnd  existe
+INFO:root: 2023-07-21 09:08:22.435275: Paso todas las pruebas, comenzando proceso de modificacion del Nuevo Modulo de Emision
+INFO:root: 2023-07-21 09:08:23.222775: Se comienza a modificar el  archivo C:\Entornos\Superintendencia - 04\PRODUCCION/FrontEnd/STE/SPA/assets/configuration/emission.config.json
+INFO:root: 2023-07-21 09:08:23.239117: Ha sido modificado el  archivo C:\Entornos\Superintendencia - 04\PRODUCCION\FrontEnd\STE\SPA\assets\configuration\emission.config.json de forma exitosa
+INFO:root: 2023-07-21 09:08:23.239183: Se cambio la cadena de texto "showButton": false,
+INFO:root: 2023-07-21 09:08:23.239183: por la cadena de texto "showButton": true,
+INFO:root: 2023-07-21 09:09:52.912990: Se esta examinando el archivo
+INFO:root: 2023-07-21 09:10:13.432642: Se esta examinando el archivo
+INFO:root: 2023-07-21 09:11:54.320021: Se esta examinando el archivo
+INFO:root: 2023-07-21 09:11:59.215989: Se esta examinando el archivo
+INFO:root: 2023-07-21 09:12:03.303588: Fin de la ejecucion de la Aplicacion
+INFO:root: 2023-07-21 09:14:40.829181: Inicializacion de la Aplicacion
+INFO:root: 2023-07-21 09:14:41.083104: La imagenes no fueron cargadas correctamente, valide que la carpeta img se encuentre en el aplicativo
+INFO:root: 2023-07-21 09:14:44.102937: Se esta seleccionando el directorio para la carga de reportes
+INFO:root: 2023-07-21 09:14:51.010397: Se selecciono el directorio C:/Entornos/Banco Promerica - 01/PRODUCCION
+INFO:root: 2023-07-21 09:14:51.010397: La carpeta STE  existe
+INFO:root: 2023-07-21 09:14:51.026026: La carpeta Appointment  existe
+ERROR:root: 2023-07-21 09:14:51.026026: La carpeta OpinionPoll no existe
+INFO:root: 2023-07-21 09:15:16.310814: Se esta seleccionando el directorio para la carga de reportes
+INFO:root: 2023-07-21 09:15:24.140407: Se selecciono el directorio C:/Entornos/Senasa - 03/PRODUCCION
+INFO:root: 2023-07-21 09:15:24.140407: La carpeta STE  existe
+INFO:root: 2023-07-21 09:15:24.140407: La carpeta Appointment  existe
+INFO:root: 2023-07-21 09:15:24.140407: La carpeta OpinionPoll  existe
+INFO:root: 2023-07-21 09:17:15.149472: Fin de la ejecucion de la Aplicacion
+INFO:root: 2023-07-21 09:20:51.475612: Inicializacion de la Aplicacion
+INFO:root: 2023-07-21 09:20:51.729526: La imagenes no fueron cargadas correctamente, valide que la carpeta img se encuentre en el aplicativo
+INFO:root: 2023-07-21 09:20:58.364773: Se esta seleccionando el directorio para la creacion de la aplicacion
+INFO:root: 2023-07-21 09:21:01.305333: Se selecciono el directorio C:/Entornos/Senasa - 03/PRODUCCION
+INFO:root: 2023-07-21 13:07:52.000201: Inicializacion de la Aplicacion
+INFO:root: 2023-07-21 13:07:52.245964: La imagenes no fueron cargadas correctamente, valide que la carpeta img se encuentre en el aplicativo
+INFO:root: 2023-07-21 13:09:50.459176: Se esta seleccionando el directorio para la creacion de la aplicacion
+INFO:root: 2023-07-21 13:09:59.594165: Se selecciono el directorio C:/Entornos/Clinica San Rafael/PRODUCCION
+INFO:root: 2023-07-21 13:10:00.806859: Se comienza a automatizar el aplicativo
+INFO:root: 2023-07-21 13:10:00.807857: La carpeta Middleware  existe
+INFO:root: 2023-07-21 13:10:00.807857: La carpeta FrontEnd  existe
+INFO:root: 2023-07-21 13:10:00.807857: Paso todas las pruebas, comenzando proceso automatizacion 
+INFO:root: 2023-07-21 13:10:00.808857: Inicializacion De La instalacion del servicio
+INFO:root: 2023-07-21 13:10:01.120985: create "e-Flow STE Middleware Service"  binpath="C:\Entornos\Clinica San Rafael\PRODUCCION\MiddleWare\STE\bin\Sidesys.Services.ApplicationService.exe" obj=localsystem start=demand 
+INFO:root: 2023-07-21 13:10:01.198288: El servicio e-Flow STE Middleware Service se ha instalado exitosamente
+INFO:root: 2023-07-21 13:10:01.198288: Finalizacion de la instalacion del servicio
+INFO:root: 2023-07-21 13:10:01.198288: Inicializacion De La instalacion del servicio
+INFO:root: 2023-07-21 13:10:01.367191: create "e-Flow STE MiddlewareNode Service"  binpath="C:\Entornos\Clinica San Rafael\PRODUCCION\MiddleWareNode\STE\bin\Sidesys.Services.ApplicationService.exe" obj=localsystem start=demand 
+INFO:root: 2023-07-21 13:10:01.464136: El servicio e-Flow STE MiddlewareNode Service se ha instalado exitosamente
+INFO:root: 2023-07-21 13:10:01.464136: Finalizacion de la instalacion del servicio
+INFO:root: 2023-07-21 13:10:01.464136: Inicializacion De La instalacion del servicio
+INFO:root: 2023-07-21 13:10:01.619047: create "e-Flow Citas STE Middleware Service"  binpath="C:\Entornos\Clinica San Rafael\PRODUCCION\MiddleWare\Appointment\bin\Sidesys.Services.ApplicationService.exe" obj=localsystem start=demand 
+INFO:root: 2023-07-21 13:10:01.725985: El servicio e-Flow Citas STE Middleware Service se ha instalado exitosamente
+INFO:root: 2023-07-21 13:10:01.726985: Finalizacion de la instalacion del servicio
+INFO:root: 2023-07-21 13:10:01.726985: Inicializacion De La instalacion del servicio
+INFO:root: 2023-07-21 13:10:01.929869: create "e-Flow Encuesta STE Middleware Service"  binpath="C:\Entornos\Clinica San Rafael\PRODUCCION\MiddleWare\OpinionPoll\bin\Sidesys.Services.ApplicationService.exe" obj=localsystem start=demand 
+INFO:root: 2023-07-21 13:10:02.048800: El servicio e-Flow Encuesta STE Middleware Service se ha instalado exitosamente
+INFO:root: 2023-07-21 13:10:02.049801: Finalizacion de la instalacion del servicio
+INFO:root: 2023-07-21 13:10:02.049801: Inicializacion De la creacion de la aplicacion STE 
+INFO:root: 2023-07-21 13:10:09.093991: CompletedProcess(args=['powershell', '-Command', "\n                 Import-Module WebAdministration\n                 New-Item 'IIS:\\Sites\\Default Web Site\\STE' -physicalPath 'C:\\Entornos\\Clinica San Rafael\\PRODUCCION\\FrontEnd\\STE' -type Application\n                "], returncode=0, stdout='\nName             Application pool   Protocols    Physical Path                                                         \n----             ----------------   ---------    -------------                                                         \nSTE              DefaultAppPool     http         C:\\Entornos\\Clinica San Rafael\\PRODUCCION\\FrontEnd\\STE                \n\n\n', stderr='') 
+ERROR:root: 2023-07-21 13:10:09.093991: La carpeta STE no existe
+ERROR:root: 2023-07-21 13:10:09.093991: Error al crear la aplicacion STE, valide que sea administrador
+INFO:root: 2023-07-21 13:10:09.094991: Inicializacion De la creacion de la aplicacion Appointment 
+INFO:root: 2023-07-21 13:10:10.528165: CompletedProcess(args=['powershell', '-Command', "\n                 Import-Module WebAdministration\n                 New-Item 'IIS:\\Sites\\Default Web Site\\Appointment' -physicalPath 'C:\\Entornos\\Clinica San Rafael\\PRODUCCION\\FrontEnd\\Appointment' -type Application\n                "], returncode=0, stdout='\nName             Application pool   Protocols    Physical Path                                                         \n----             ----------------   ---------    -------------                                                         \nAppointment      DefaultAppPool     http         C:\\Entornos\\Clinica San Rafael\\PRODUCCION\\FrontEnd\\Appointment        \n\n\n', stderr='') 
+ERROR:root: 2023-07-21 13:10:10.529165: La carpeta Appointment no existe
+ERROR:root: 2023-07-21 13:10:10.529165: Error al crear la aplicacion Appointment, valide que sea administrador
+INFO:root: 2023-07-21 13:10:10.529165: Inicializacion De la creacion de la aplicacion AppointmentWeb 
+INFO:root: 2023-07-21 13:10:12.012311: CompletedProcess(args=['powershell', '-Command', "\n                 Import-Module WebAdministration\n                 New-Item 'IIS:\\Sites\\Default Web Site\\AppointmentWeb' -physicalPath 'C:\\Entornos\\Clinica San Rafael\\PRODUCCION\\FrontEnd\\AppointmentWeb' -type Application\n                "], returncode=0, stdout='\nName             Application pool   Protocols    Physical Path                                                         \n----             ----------------   ---------    -------------                                                         \nAppointmentWeb   DefaultAppPool     http         C:\\Entornos\\Clinica San Rafael\\PRODUCCION\\FrontEnd\\AppointmentWeb     \n\n\n', stderr='') 
+ERROR:root: 2023-07-21 13:10:12.012311: La carpeta AppointmentWeb no existe
+ERROR:root: 2023-07-21 13:10:12.013314: Error al crear la aplicacion AppointmentWeb, valide que sea administrador
+INFO:root: 2023-07-21 13:10:12.013314: Inicializacion De la creacion de la aplicacion AppointmentWebService 
+INFO:root: 2023-07-21 13:10:13.325554: CompletedProcess(args=['powershell', '-Command', "\n                 Import-Module WebAdministration\n                 New-Item 'IIS:\\Sites\\Default Web Site\\AppointmentWebService' -physicalPath 'C:\\Entornos\\Clinica San Rafael\\PRODUCCION\\FrontEnd\\AppointmentWebService' -type Application\n                "], returncode=0, stdout='\nName             Application pool   Protocols    Physical Path                                                         \n----             ----------------   ---------    -------------                                                         \nAppointmentWebSe DefaultAppPool     http         C:\\Entornos\\Clinica San                                               \nrvice                                            Rafael\\PRODUCCION\\FrontEnd\\AppointmentWebService                      \n\n\n', stderr='') 
+ERROR:root: 2023-07-21 13:10:13.326555: La carpeta AppointmentWebService no existe
+ERROR:root: 2023-07-21 13:10:13.326555: Error al crear la aplicacion AppointmentWebService, valide que sea administrador
+INFO:root: 2023-07-21 13:10:13.326555: Inicializacion De la creacion de la aplicacion OpinionPoll 
+INFO:root: 2023-07-21 13:10:14.662784: CompletedProcess(args=['powershell', '-Command', "\n                 Import-Module WebAdministration\n                 New-Item 'IIS:\\Sites\\Default Web Site\\OpinionPoll' -physicalPath 'C:\\Entornos\\Clinica San Rafael\\PRODUCCION\\FrontEnd\\OpinionPoll' -type Application\n                "], returncode=0, stdout='\nName             Application pool   Protocols    Physical Path                                                         \n----             ----------------   ---------    -------------                                                         \nOpinionPoll      DefaultAppPool     http         C:\\Entornos\\Clinica San Rafael\\PRODUCCION\\FrontEnd\\OpinionPoll        \n\n\n', stderr='') 
+ERROR:root: 2023-07-21 13:10:14.662784: La carpeta OpinionPoll no existe
+ERROR:root: 2023-07-21 13:10:14.663785: Error al crear la aplicacion OpinionPoll, valide que sea administrador
+INFO:root: 2023-07-21 13:10:14.663785: Comenzando a modificar el udl
+INFO:root: 2023-07-21 13:10:14.671779: Comenzando a modificar el udl de STE
+INFO:root: 2023-07-21 13:10:14.877662
+           1)Password=sof
+           2)Persist Security Info=True
+           3)User ID=SOF
+           4)Initial Catalog=STE 
+           5)Data Source=MXSTAC005\SQLEXPRESS
+ 
+            
+INFO:root: 2023-07-21 13:10:14.877662
+           1)La nueva clave es SOF
+           2)La nueva base de datos es STE
+           3)El nuevo usuario es SOF
+           4)El nuevo servidor es DOCOM004 
+            
+INFO:root: 2023-07-21 13:10:14.891653
+           1)Password=ste
+           2)Persist Security Info=True
+           3)User ID=usr_STE
+           4)Initial Catalog=STE 
+           5)Data Source=MXSTAC005\SQLEXPRESS
+ 
+            
+INFO:root: 2023-07-21 13:10:14.892652
+           1)La nueva clave es usr_STE
+           2)La nueva base de datos es STE
+           3)El nuevo usuario es usr_STE
+           4)El nuevo servidor es DOCOM004 
+            
+INFO:root: 2023-07-21 13:10:14.908643
+           1)Password=ste
+           2)Persist Security Info=True
+           3)User ID=usr_STE
+           4)Initial Catalog=STE 
+           5)Data Source=MXSTAC005\SQLEXPRESS
+ 
+            
+INFO:root: 2023-07-21 13:10:14.908643
+           1)La nueva clave es usr_STE
+           2)La nueva base de datos es STE
+           3)El nuevo usuario es usr_STE
+           4)El nuevo servidor es DOCOM004 
+            
+INFO:root: 2023-07-21 13:10:14.923634
+           1)Password=usr_STE
+           2)Persist Security Info=True
+           3)User ID=usr_STE
+           4)Initial Catalog=!Test_STE_Unique 
+           5)Data Source=localhost\SQLExpress
+ 
+            
+INFO:root: 2023-07-21 13:10:14.923634
+           1)La nueva clave es usr_STE
+           2)La nueva base de datos es STE
+           3)El nuevo usuario es usr_STE
+           4)El nuevo servidor es DOCOM004 
+            
+INFO:root: 2023-07-21 13:10:14.932629: Comenzando a modificar el udl
+INFO:root: 2023-07-21 13:10:14.940625: Comenzando a modificar el udl de STE
+INFO:root: 2023-07-21 13:12:23.651438: Se esta seleccionando el directorio para la creacion de la aplicacion
+INFO:root: 2023-07-21 13:12:27.624621: Se selecciono el directorio C:/Entornos/Clinica San Rafael/PRODUCCION
+INFO:root: 2023-07-21 13:12:28.940665: Se comienza a modificar  NME
+INFO:root: 2023-07-21 13:12:28.940665: La carpeta Middleware  existe
+INFO:root: 2023-07-21 13:12:28.941665: La carpeta FrontEnd  existe
+INFO:root: 2023-07-21 13:12:28.941665: Paso todas las pruebas, comenzando proceso de modificacion del Nuevo Modulo de Emision
+INFO:root: 2023-07-21 13:12:30.210952: Se comienza a modificar el  archivo C:\Entornos\Clinica San Rafael\PRODUCCION/FrontEnd/Sidesys.eFlow.Emission.API/Web.config
+INFO:root: 2023-07-21 13:12:30.263502: Ha sido modificado el  archivo C:\Entornos\Clinica San Rafael\PRODUCCION\FrontEnd\Sidesys.eFlow.Emission.API\Web.config de forma exitosa
+INFO:root: 2023-07-21 13:12:30.264499: Se cambio la cadena de texto <add key="eFlowServiceUrl" value="http://192.168.104.92:80/Services/EmissionService.svc"
+INFO:root: 2023-07-21 13:12:30.264499: por la cadena de texto <add key="eFlowServiceUrl" value="http://DOCOM004:80/Services/EmissionService.svc"
+INFO:root: 2023-07-21 13:12:30.264499: Se comienza a modificar el  archivo C:\Entornos\Clinica San Rafael\PRODUCCION/FrontEnd/Sidesys.eFlow.Emission.API/Web.config
+INFO:root: 2023-07-21 13:12:30.276494: Ha sido modificado el  archivo C:\Entornos\Clinica San Rafael\PRODUCCION\FrontEnd\Sidesys.eFlow.Emission.API\Web.config de forma exitosa
+INFO:root: 2023-07-21 13:12:30.276494: Se cambio la cadena de texto  <add key="AllowedCrossOrigins" value="http://192.168.104.92:80"
+INFO:root: 2023-07-21 13:12:30.276494: por la cadena de texto <add key="AllowedCrossOrigins" value="http://DOCOM004:80"
+INFO:root: 2023-07-21 13:12:30.276494: Se comienza a modificar el  archivo C:\Entornos\Clinica San Rafael\PRODUCCION/FrontEnd/STE/SPA/assets/configuration/emission.config.json
+INFO:root: 2023-07-21 13:12:30.492368: Ha sido modificado el  archivo C:\Entornos\Clinica San Rafael\PRODUCCION\FrontEnd\STE\SPA\assets\configuration\emission.config.json de forma exitosa
+INFO:root: 2023-07-21 13:12:30.492368: Se cambio la cadena de texto "emissionApiEndpoint": "http://192.168.104.92:81",
+INFO:root: 2023-07-21 13:12:30.492368: por la cadena de texto "emissionApiEndpoint": "http://DOCOM004:81",
+INFO:root: 2023-07-21 13:12:47.379178: Se esta seleccionando el directorio para la creacion de la aplicacion
+INFO:root: 2023-07-21 13:12:49.702769: Se selecciono el directorio C:/Entornos/Clinica San Rafael/PRODUCCION
+INFO:root: 2023-07-21 13:12:50.611912: Se comienza a modificar  NCache
+INFO:root: 2023-07-21 13:12:50.612916: La carpeta Middleware  existe
+INFO:root: 2023-07-21 13:12:50.612916: La carpeta FrontEnd  existe
+INFO:root: 2023-07-21 13:12:50.613915: Paso todas las pruebas, comenzando proceso de modificacion de los NCache
+INFO:root: 2023-07-21 13:12:50.613915: Se comienza a modificar el  archivo C:\Entornos\Clinica San Rafael\PRODUCCION/FrontEnd/STE/ConfigFiles/ServiceBus.NCache.config
+INFO:root: 2023-07-21 13:12:50.623909: Ha sido modificado el  archivo C:\Entornos\Clinica San Rafael\PRODUCCION\FrontEnd\STE\ConfigFiles\ServiceBus.NCache.config de forma exitosa
+INFO:root: 2023-07-21 13:12:50.623909: Se cambio la cadena de texto ServerName="DOSTAC006"
+INFO:root: 2023-07-21 13:12:50.623909: por la cadena de texto ServerName="192.168.104.93"
+INFO:root: 2023-07-21 13:12:50.623909: Se comienza a modificar el  archivo C:\Entornos\Clinica San Rafael\PRODUCCION/FrontEnd/STE/ConfigFiles/ServiceBus.NCache.config
+INFO:root: 2023-07-21 13:12:50.631904: Ha sido modificado el  archivo C:\Entornos\Clinica San Rafael\PRODUCCION\FrontEnd\STE\ConfigFiles\ServiceBus.NCache.config de forma exitosa
+INFO:root: 2023-07-21 13:12:50.632905: Se cambio la cadena de texto CacheName ="myCache"
+INFO:root: 2023-07-21 13:12:50.632905: por la cadena de texto CacheName ="myCache"
+INFO:root: 2023-07-21 13:12:50.632905: Se comienza a modificar el  archivo C:\Entornos\Clinica San Rafael\PRODUCCION/MiddleWare/STE/bin/ServiceBus.NCache.config
+INFO:root: 2023-07-21 13:12:50.639697: Ha sido modificado el  archivo C:\Entornos\Clinica San Rafael\PRODUCCION\MiddleWare\STE\bin\ServiceBus.NCache.config de forma exitosa
+INFO:root: 2023-07-21 13:12:50.639697: Se cambio la cadena de texto ServerName="DOSTAC006"
+INFO:root: 2023-07-21 13:12:50.639697: por la cadena de texto ServerName="192.168.104.93"
+INFO:root: 2023-07-21 13:12:50.639697: Se comienza a modificar el  archivo C:\Entornos\Clinica San Rafael\PRODUCCION/MiddleWare/STE/bin/ServiceBus.NCache.config
+INFO:root: 2023-07-21 13:12:50.646693: Ha sido modificado el  archivo C:\Entornos\Clinica San Rafael\PRODUCCION\MiddleWare\STE\bin\ServiceBus.NCache.config de forma exitosa
+INFO:root: 2023-07-21 13:12:50.647692: Se cambio la cadena de texto CacheName ="myCache"
+INFO:root: 2023-07-21 13:12:50.647692: por la cadena de texto CacheName ="myCache"
+INFO:root: 2023-07-21 13:12:54.108436: Fin de la ejecucion de la Aplicacion
+INFO:root: 2023-07-21 16:47:27.127422: Inicializacion de la Aplicacion
+INFO:root: 2023-07-21 16:47:27.411249: La imagenes no fueron cargadas correctamente, valide que la carpeta img se encuentre en el aplicativo
+INFO:root: 2023-07-21 16:48:12.912597: Fin de la ejecucion de la Aplicacion

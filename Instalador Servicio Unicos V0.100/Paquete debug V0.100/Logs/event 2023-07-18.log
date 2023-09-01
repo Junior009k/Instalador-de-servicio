@@ -1,0 +1,686 @@
+INFO:root: 2023-07-18 08:53:52.375480: Inicializacion de la Aplicacion
+INFO:root: 2023-07-18 08:54:41.559608: Inicializacion de la Aplicacion
+INFO:root: 2023-07-18 08:54:59.025008: Inicializacion de la Aplicacion
+INFO:root: 2023-07-18 08:55:46.003463: Inicializacion de la Aplicacion
+INFO:root: 2023-07-18 08:55:46.288164: La imagenes no fueron cargadas correctamente, valide que la carpeta img se encuentre en el aplicativo
+INFO:root: 2023-07-18 08:56:07.057646: Fin de la ejecucion de la Aplicacion
+INFO:root: 2023-07-18 08:57:08.092260: Inicializacion de la Aplicacion
+INFO:root: 2023-07-18 08:57:08.308421: La imagenes no fueron cargadas correctamente, valide que la carpeta img se encuentre en el aplicativo
+INFO:root: 2023-07-18 08:58:44.381904: Se esta seleccionando el directorio para la creacion de la aplicacion
+INFO:root: 2023-07-18 08:58:55.057227: Se selecciono el directorio C:/Entornos/Senasa - 03/PRODUCCION
+INFO:root: 2023-07-18 08:58:56.658291: Se comienza a automatizar el aplicativo
+INFO:root: 2023-07-18 08:58:56.659627: La carpeta Middleware  existe
+INFO:root: 2023-07-18 08:58:56.659627: La carpeta FrontEnd  existe
+INFO:root: 2023-07-18 08:58:56.659627: Paso todas las pruebas, comenzando proceso automatizacion 
+INFO:root: 2023-07-18 08:58:56.660632: Inicializacion De La instalacion del servicio
+INFO:root: 2023-07-18 08:58:56.894448: create "e-Flow STE Middleware Service"  binpath="C:\Entornos\Senasa - 03\PRODUCCION\MiddleWare\STE\bin\Sidesys.Services.ApplicationService.exe"" obj=localsystem start=Manual 
+ERROR:root: 2023-07-18 08:58:56.894448: El servicio e-Flow STE Middleware Service no se ha instalado 
+ERROR:root: 2023-07-18 08:58:56.894448: Finalizacion de la instalacion del servicio
+INFO:root: 2023-07-18 08:58:56.894448: Inicializacion De La instalacion del servicio
+INFO:root: 2023-07-18 08:58:57.063279: create "e-Flow STE MiddlewareNode Service"  binpath="C:\Entornos\Senasa - 03\PRODUCCION\MiddleWareNode\STE\bin\Sidesys.Services.ApplicationService.exe"" obj=localsystem start=Manual 
+ERROR:root: 2023-07-18 08:58:57.063279: El servicio e-Flow STE MiddlewareNode Service no se ha instalado 
+ERROR:root: 2023-07-18 08:58:57.063279: Finalizacion de la instalacion del servicio
+INFO:root: 2023-07-18 08:58:57.063279: Inicializacion De La instalacion del servicio
+INFO:root: 2023-07-18 08:58:57.248161: create "e-Flow Citas STE Middleware Service"  binpath="C:\Entornos\Senasa - 03\PRODUCCION\MiddleWare\Appointment\bin\Sidesys.Services.ApplicationService.exe"" obj=localsystem start=Manual 
+ERROR:root: 2023-07-18 08:58:57.248161: El servicio e-Flow Citas STE Middleware Service no se ha instalado 
+ERROR:root: 2023-07-18 08:58:57.248161: Finalizacion de la instalacion del servicio
+INFO:root: 2023-07-18 08:58:57.248161: Inicializacion De La instalacion del servicio
+INFO:root: 2023-07-18 08:58:57.442174: create "e-Flow Encuesta STE Middleware Service"  binpath="C:\Entornos\Senasa - 03\PRODUCCION\MiddleWare\OpinionPoll\bin\Sidesys.Services.ApplicationService.exe"" obj=localsystem start=Manual 
+ERROR:root: 2023-07-18 08:58:57.448687: El servicio e-Flow Encuesta STE Middleware Service no se ha instalado 
+ERROR:root: 2023-07-18 08:58:57.448687: Finalizacion de la instalacion del servicio
+INFO:root: 2023-07-18 08:58:57.448687: Inicializacion De la creacion de la aplicacion STE 
+INFO:root: 2023-07-18 08:59:02.307752: CompletedProcess(args=['powershell', '-Command', "\n                 Import-Module WebAdministration\n                 New-Item 'IIS:\\Sites\\Default Web Site\\STE' -physicalPath 'C:\\Entornos\\Senasa - 03\\PRODUCCION\\FrontEnd\\STE' -type Application\n                "], returncode=0, stdout='\nName             Application pool   Protocols    Physical Path                                                         \n----             ----------------   ---------    -------------                                                         \nSTE              DefaultAppPool     http         C:\\Entornos\\Senasa - 03\\PRODUCCION\\FrontEnd\\STE                       \n\n\n', stderr='') 
+ERROR:root: 2023-07-18 08:59:02.307752: La carpeta STE no existe
+ERROR:root: 2023-07-18 08:59:02.307752: Error al crear la aplicacion STE, valide que sea administrador
+INFO:root: 2023-07-18 08:59:02.307752: Inicializacion De la creacion de la aplicacion Appointment 
+INFO:root: 2023-07-18 08:59:04.609878: CompletedProcess(args=['powershell', '-Command', "\n                 Import-Module WebAdministration\n                 New-Item 'IIS:\\Sites\\Default Web Site\\Appointment' -physicalPath 'C:\\Entornos\\Senasa - 03\\PRODUCCION\\FrontEnd\\Appointment' -type Application\n                "], returncode=0, stdout='\nName             Application pool   Protocols    Physical Path                                                         \n----             ----------------   ---------    -------------                                                         \nAppointment      DefaultAppPool     http         C:\\Entornos\\Senasa - 03\\PRODUCCION\\FrontEnd\\Appointment               \n\n\n', stderr='') 
+ERROR:root: 2023-07-18 08:59:04.609878: La carpeta Appointment no existe
+ERROR:root: 2023-07-18 08:59:04.609878: Error al crear la aplicacion Appointment, valide que sea administrador
+INFO:root: 2023-07-18 08:59:04.609878: Inicializacion De la creacion de la aplicacion AppointmentWeb 
+INFO:root: 2023-07-18 08:59:06.868666: CompletedProcess(args=['powershell', '-Command', "\n                 Import-Module WebAdministration\n                 New-Item 'IIS:\\Sites\\Default Web Site\\AppointmentWeb' -physicalPath 'C:\\Entornos\\Senasa - 03\\PRODUCCION\\FrontEnd\\AppointmentWeb' -type Application\n                "], returncode=0, stdout='\nName             Application pool   Protocols    Physical Path                                                         \n----             ----------------   ---------    -------------                                                         \nAppointmentWeb   DefaultAppPool     http         C:\\Entornos\\Senasa - 03\\PRODUCCION\\FrontEnd\\AppointmentWeb            \n\n\n', stderr='') 
+ERROR:root: 2023-07-18 08:59:06.868666: La carpeta AppointmentWeb no existe
+ERROR:root: 2023-07-18 08:59:06.868666: Error al crear la aplicacion AppointmentWeb, valide que sea administrador
+INFO:root: 2023-07-18 08:59:06.868666: Inicializacion De la creacion de la aplicacion AppointmentWebService 
+INFO:root: 2023-07-18 08:59:09.231452: CompletedProcess(args=['powershell', '-Command', "\n                 Import-Module WebAdministration\n                 New-Item 'IIS:\\Sites\\Default Web Site\\AppointmentWebService' -physicalPath 'C:\\Entornos\\Senasa - 03\\PRODUCCION\\FrontEnd\\AppointmentWebService' -type Application\n                "], returncode=0, stdout='\nName             Application pool   Protocols    Physical Path                                                         \n----             ----------------   ---------    -------------                                                         \nAppointmentWebSe DefaultAppPool     http         C:\\Entornos\\Senasa - 03\\PRODUCCION\\FrontEnd\\AppointmentWebService     \nrvice                                                                                                                  \n\n\n', stderr='') 
+ERROR:root: 2023-07-18 08:59:09.231452: La carpeta AppointmentWebService no existe
+ERROR:root: 2023-07-18 08:59:09.239482: Error al crear la aplicacion AppointmentWebService, valide que sea administrador
+INFO:root: 2023-07-18 08:59:09.239482: Inicializacion De la creacion de la aplicacion OpinionPoll 
+INFO:root: 2023-07-18 08:59:11.634102: CompletedProcess(args=['powershell', '-Command', "\n                 Import-Module WebAdministration\n                 New-Item 'IIS:\\Sites\\Default Web Site\\OpinionPoll' -physicalPath 'C:\\Entornos\\Senasa - 03\\PRODUCCION\\FrontEnd\\OpinionPoll' -type Application\n                "], returncode=0, stdout='\nName             Application pool   Protocols    Physical Path                                                         \n----             ----------------   ---------    -------------                                                         \nOpinionPoll      DefaultAppPool     http         C:\\Entornos\\Senasa - 03\\PRODUCCION\\FrontEnd\\OpinionPoll               \n\n\n', stderr='') 
+ERROR:root: 2023-07-18 08:59:11.634102: La carpeta OpinionPoll no existe
+ERROR:root: 2023-07-18 08:59:11.634102: Error al crear la aplicacion OpinionPoll, valide que sea administrador
+INFO:root: 2023-07-18 08:59:11.634102: Comenzando a modificar el udl
+INFO:root: 2023-07-18 08:59:11.634102: Comenzando a modificar el udl de STE
+INFO:root: 2023-07-18 08:59:11.734356
+           1)Password=SOF
+           2)Persist Security Info=True
+           3)User ID=SOF
+           4)Initial Catalog=STE 
+           5)Data Source=192.168.104.93 
+            
+INFO:root: 2023-07-18 08:59:11.734356
+           1)La nueva clave es SOF
+           2)La nueva base de datos es STE
+           3)El nuevo usuario es SOF
+           4)El nuevo servidor es 192.168.104.93 
+            
+INFO:root: 2023-07-18 08:59:11.749979
+           1)Password=usr_STE
+           2)Persist Security Info=True
+           3)User ID=usr_STE
+           4)Initial Catalog=STE 
+           5)Data Source=192.168.104.93 
+            
+INFO:root: 2023-07-18 08:59:11.749979
+           1)La nueva clave es usr_STE
+           2)La nueva base de datos es STE
+           3)El nuevo usuario es usr_STE
+           4)El nuevo servidor es 192.168.104.93 
+            
+INFO:root: 2023-07-18 08:59:11.765604
+           1)Password=usr_STE
+           2)Persist Security Info=True
+           3)User ID=usr_STE
+           4)Initial Catalog=STE 
+           5)Data Source=192.168.104.93 
+            
+INFO:root: 2023-07-18 08:59:11.765604
+           1)La nueva clave es usr_STE
+           2)La nueva base de datos es STE
+           3)El nuevo usuario es usr_STE
+           4)El nuevo servidor es 192.168.104.93 
+            
+INFO:root: 2023-07-18 08:59:11.781244
+           1)Password=usr_STE
+           2)Persist Security Info=True
+           3)User ID=usr_STE
+           4)Initial Catalog=STE 
+           5)Data Source=192.168.104.93 
+            
+INFO:root: 2023-07-18 08:59:11.781244
+           1)La nueva clave es usr_STE
+           2)La nueva base de datos es STE
+           3)El nuevo usuario es usr_STE
+           4)El nuevo servidor es 192.168.104.93 
+            
+INFO:root: 2023-07-18 08:59:11.781244: Comenzando a modificar el udl
+INFO:root: 2023-07-18 08:59:11.781244: Comenzando a modificar el udl de STE
+INFO:root: 2023-07-18 08:59:11.796851
+           1)Password=SOF
+           2)Persist Security Info=True
+           3)User ID=SOF
+           4)Initial Catalog=STE 
+           5)Data Source=192.168.104.93 
+            
+INFO:root: 2023-07-18 08:59:11.796851
+           1)La nueva clave es SOF
+           2)La nueva base de datos es STE
+           3)El nuevo usuario es SOF
+           4)El nuevo servidor es 192.168.104.93 
+            
+INFO:root: 2023-07-18 08:59:11.812475
+           1)Password=usr_STE
+           2)Persist Security Info=True
+           3)User ID=usr_STE
+           4)Initial Catalog=STE 
+           5)Data Source=192.168.104.93 
+            
+INFO:root: 2023-07-18 08:59:11.812475
+           1)La nueva clave es usr_STE
+           2)La nueva base de datos es STE
+           3)El nuevo usuario es usr_STE
+           4)El nuevo servidor es 192.168.104.93 
+            
+INFO:root: 2023-07-18 08:59:11.819002
+           1)Password=usr_STE
+           2)Persist Security Info=True
+           3)User ID=usr_STE
+           4)Initial Catalog=STE 
+           5)Data Source=192.168.104.93 
+            
+INFO:root: 2023-07-18 08:59:11.819002
+           1)La nueva clave es usr_STE
+           2)La nueva base de datos es STE
+           3)El nuevo usuario es usr_STE
+           4)El nuevo servidor es 192.168.104.93 
+            
+INFO:root: 2023-07-18 08:59:11.834643
+           1)Password=usr_STE
+           2)Persist Security Info=True
+           3)User ID=usr_STE
+           4)Initial Catalog=STE 
+           5)Data Source=192.168.104.93 
+            
+INFO:root: 2023-07-18 08:59:11.834643
+           1)La nueva clave es usr_STE
+           2)La nueva base de datos es STE
+           3)El nuevo usuario es usr_STE
+           4)El nuevo servidor es 192.168.104.93 
+            
+INFO:root: 2023-07-18 08:59:11.834643: Comenzando a modificar el udl
+INFO:root: 2023-07-18 08:59:13.862348: Comenzando a modificar el udl de SSP
+INFO:root: 2023-07-18 08:59:13.864889
+           1)Password=SOF
+           2)Persist Security Info=True
+           3)User ID=SOF
+           4)Initial Catalog=STE 
+           5)Data Source=192.168.104.93 
+            
+INFO:root: 2023-07-18 08:59:13.864889
+           1)La nueva clave es SOF
+           2)La nueva base de datos es Appointment
+           3)El nuevo usuario es SOF
+           4)El nuevo servidor es 192.168.104.92 
+            
+INFO:root: 2023-07-18 08:59:13.884650
+           1)Password=usr_SSP
+           2)Persist Security Info=True
+           3)User ID=usr_SSP
+           4)Initial Catalog=STE 
+           5)Data Source=192.168.104.93 
+            
+INFO:root: 2023-07-18 08:59:13.884650
+           1)La nueva clave es usr_SSP
+           2)La nueva base de datos es Appointment
+           3)El nuevo usuario es usr_SSP
+           4)El nuevo servidor es 192.168.104.92 
+            
+INFO:root: 2023-07-18 08:59:13.884650: Comenzando a modificar el udl
+INFO:root: 2023-07-18 08:59:15.452350: Comenzando a modificar el udl de OpinionPoll
+INFO:root: 2023-07-18 08:59:15.464474
+           1)Password=SOF
+           2)Persist Security Info=True
+           3)User ID=SOF
+           4)Initial Catalog=STE 
+           5)Data Source=192.168.104.93 
+            
+INFO:root: 2023-07-18 08:59:15.464474
+           1)La nueva clave es SOF
+           2)La nueva base de datos es STE
+           3)El nuevo usuario es SOF
+           4)El nuevo servidor es 192.168.104.93 
+            
+INFO:root: 2023-07-18 08:59:15.478435
+           1)Password=usr_STE
+           2)Persist Security Info=True
+           3)User ID=usr_STE
+           4)Initial Catalog=STE 
+           5)Data Source=192.168.104.93 
+            
+INFO:root: 2023-07-18 08:59:15.478435
+           1)La nueva clave es usr_STE
+           2)La nueva base de datos es STE
+           3)El nuevo usuario es usr_STE
+           4)El nuevo servidor es 192.168.104.93 
+            
+INFO:root: 2023-07-18 09:06:48.199070: Inicializacion de la Aplicacion
+INFO:root: 2023-07-18 09:06:48.430872: La imagenes no fueron cargadas correctamente, valide que la carpeta img se encuentre en el aplicativo
+INFO:root: 2023-07-18 09:07:04.782316: Se esta seleccionando el directorio para la creacion de la aplicacion
+INFO:root: 2023-07-18 09:07:07.028197: Se selecciono el directorio C:/Entornos/Senasa - 03/PRODUCCION
+INFO:root: 2023-07-18 09:08:32.914428: Se comienza a automatizar el aplicativo
+INFO:root: 2023-07-18 09:08:32.915348: La carpeta Middleware  existe
+INFO:root: 2023-07-18 09:08:32.915348: La carpeta FrontEnd  existe
+INFO:root: 2023-07-18 09:08:32.915348: Paso todas las pruebas, comenzando proceso automatizacion 
+INFO:root: 2023-07-18 09:08:32.916350: Inicializacion De La instalacion del servicio
+INFO:root: 2023-07-18 09:08:33.097895: create "e-Flow STE Middleware Service"  binpath="C:\Entornos\Senasa - 03\PRODUCCION\MiddleWare\STE\bin\Sidesys.Services.ApplicationService.exe"" obj=localsystem start=demand 
+INFO:root: 2023-07-18 09:08:33.113519: El servicio e-Flow STE Middleware Service se ha instalado exitosamente
+INFO:root: 2023-07-18 09:08:33.113519: Finalizacion de la instalacion del servicio
+INFO:root: 2023-07-18 09:08:33.113519: Inicializacion De La instalacion del servicio
+INFO:root: 2023-07-18 09:08:33.298421: create "e-Flow STE MiddlewareNode Service"  binpath="C:\Entornos\Senasa - 03\PRODUCCION\MiddleWareNode\STE\bin\Sidesys.Services.ApplicationService.exe"" obj=localsystem start=demand 
+INFO:root: 2023-07-18 09:08:33.298421: El servicio e-Flow STE MiddlewareNode Service se ha instalado exitosamente
+INFO:root: 2023-07-18 09:08:33.298421: Finalizacion de la instalacion del servicio
+INFO:root: 2023-07-18 09:08:33.298421: Inicializacion De La instalacion del servicio
+INFO:root: 2023-07-18 09:08:33.498938: create "e-Flow Citas STE Middleware Service"  binpath="C:\Entornos\Senasa - 03\PRODUCCION\MiddleWare\Appointment\bin\Sidesys.Services.ApplicationService.exe"" obj=localsystem start=demand 
+INFO:root: 2023-07-18 09:08:33.498938: El servicio e-Flow Citas STE Middleware Service se ha instalado exitosamente
+INFO:root: 2023-07-18 09:08:33.498938: Finalizacion de la instalacion del servicio
+INFO:root: 2023-07-18 09:08:33.498938: Inicializacion De La instalacion del servicio
+INFO:root: 2023-07-18 09:08:33.683838: create "e-Flow Encuesta STE Middleware Service"  binpath="C:\Entornos\Senasa - 03\PRODUCCION\MiddleWare\OpinionPoll\bin\Sidesys.Services.ApplicationService.exe"" obj=localsystem start=demand 
+INFO:root: 2023-07-18 09:08:33.683838: El servicio e-Flow Encuesta STE Middleware Service se ha instalado exitosamente
+INFO:root: 2023-07-18 09:08:33.683838: Finalizacion de la instalacion del servicio
+INFO:root: 2023-07-18 09:08:33.683838: Inicializacion De la creacion de la aplicacion STE 
+INFO:root: 2023-07-18 09:08:36.045650: CompletedProcess(args=['powershell', '-Command', "\n                 Import-Module WebAdministration\n                 New-Item 'IIS:\\Sites\\Default Web Site\\STE' -physicalPath 'C:\\Entornos\\Senasa - 03\\PRODUCCION\\FrontEnd\\STE' -type Application\n                "], returncode=0, stdout='\nName             Application pool   Protocols    Physical Path                                                         \n----             ----------------   ---------    -------------                                                         \nSTE              DefaultAppPool     http         C:\\Entornos\\Senasa - 03\\PRODUCCION\\FrontEnd\\STE                       \n\n\n', stderr='') 
+ERROR:root: 2023-07-18 09:08:36.045650: La carpeta STE no existe
+ERROR:root: 2023-07-18 09:08:36.045650: Error al crear la aplicacion STE, valide que sea administrador
+INFO:root: 2023-07-18 09:08:36.045650: Inicializacion De la creacion de la aplicacion Appointment 
+INFO:root: 2023-07-18 09:08:38.359283: CompletedProcess(args=['powershell', '-Command', "\n                 Import-Module WebAdministration\n                 New-Item 'IIS:\\Sites\\Default Web Site\\Appointment' -physicalPath 'C:\\Entornos\\Senasa - 03\\PRODUCCION\\FrontEnd\\Appointment' -type Application\n                "], returncode=0, stdout='\nName             Application pool   Protocols    Physical Path                                                         \n----             ----------------   ---------    -------------                                                         \nAppointment      DefaultAppPool     http         C:\\Entornos\\Senasa - 03\\PRODUCCION\\FrontEnd\\Appointment               \n\n\n', stderr='') 
+ERROR:root: 2023-07-18 09:08:38.359283: La carpeta Appointment no existe
+ERROR:root: 2023-07-18 09:08:38.359283: Error al crear la aplicacion Appointment, valide que sea administrador
+INFO:root: 2023-07-18 09:08:38.359283: Inicializacion De la creacion de la aplicacion AppointmentWeb 
+INFO:root: 2023-07-18 09:08:40.982255: CompletedProcess(args=['powershell', '-Command', "\n                 Import-Module WebAdministration\n                 New-Item 'IIS:\\Sites\\Default Web Site\\AppointmentWeb' -physicalPath 'C:\\Entornos\\Senasa - 03\\PRODUCCION\\FrontEnd\\AppointmentWeb' -type Application\n                "], returncode=0, stdout='\nName             Application pool   Protocols    Physical Path                                                         \n----             ----------------   ---------    -------------                                                         \nAppointmentWeb   DefaultAppPool     http         C:\\Entornos\\Senasa - 03\\PRODUCCION\\FrontEnd\\AppointmentWeb            \n\n\n', stderr='') 
+ERROR:root: 2023-07-18 09:08:40.982255: La carpeta AppointmentWeb no existe
+ERROR:root: 2023-07-18 09:08:40.982255: Error al crear la aplicacion AppointmentWeb, valide que sea administrador
+INFO:root: 2023-07-18 09:08:40.982255: Inicializacion De la creacion de la aplicacion AppointmentWebService 
+INFO:root: 2023-07-18 09:08:43.333627: CompletedProcess(args=['powershell', '-Command', "\n                 Import-Module WebAdministration\n                 New-Item 'IIS:\\Sites\\Default Web Site\\AppointmentWebService' -physicalPath 'C:\\Entornos\\Senasa - 03\\PRODUCCION\\FrontEnd\\AppointmentWebService' -type Application\n                "], returncode=0, stdout='\nName             Application pool   Protocols    Physical Path                                                         \n----             ----------------   ---------    -------------                                                         \nAppointmentWebSe DefaultAppPool     http         C:\\Entornos\\Senasa - 03\\PRODUCCION\\FrontEnd\\AppointmentWebService     \nrvice                                                                                                                  \n\n\n', stderr='') 
+ERROR:root: 2023-07-18 09:08:43.333627: La carpeta AppointmentWebService no existe
+ERROR:root: 2023-07-18 09:08:43.333627: Error al crear la aplicacion AppointmentWebService, valide que sea administrador
+INFO:root: 2023-07-18 09:08:43.333627: Inicializacion De la creacion de la aplicacion OpinionPoll 
+INFO:root: 2023-07-18 09:08:45.585019: CompletedProcess(args=['powershell', '-Command', "\n                 Import-Module WebAdministration\n                 New-Item 'IIS:\\Sites\\Default Web Site\\OpinionPoll' -physicalPath 'C:\\Entornos\\Senasa - 03\\PRODUCCION\\FrontEnd\\OpinionPoll' -type Application\n                "], returncode=0, stdout='\nName             Application pool   Protocols    Physical Path                                                         \n----             ----------------   ---------    -------------                                                         \nOpinionPoll      DefaultAppPool     http         C:\\Entornos\\Senasa - 03\\PRODUCCION\\FrontEnd\\OpinionPoll               \n\n\n', stderr='') 
+ERROR:root: 2023-07-18 09:08:45.585019: La carpeta OpinionPoll no existe
+ERROR:root: 2023-07-18 09:08:45.585019: Error al crear la aplicacion OpinionPoll, valide que sea administrador
+INFO:root: 2023-07-18 09:08:45.585019: Comenzando a modificar el udl
+INFO:root: 2023-07-18 09:08:45.600643: Comenzando a modificar el udl de STE
+INFO:root: 2023-07-18 09:08:45.616270
+           1)Password=SOF
+           2)Persist Security Info=True
+           3)User ID=SOF
+           4)Initial Catalog=STE 
+           5)Data Source=192.168.104.93 
+            
+INFO:root: 2023-07-18 09:08:45.616270
+           1)La nueva clave es SOF
+           2)La nueva base de datos es STE
+           3)El nuevo usuario es SOF
+           4)El nuevo servidor es 192.168.104.93 
+            
+INFO:root: 2023-07-18 09:08:45.616270
+           1)Password=usr_STE
+           2)Persist Security Info=True
+           3)User ID=usr_STE
+           4)Initial Catalog=STE 
+           5)Data Source=192.168.104.93 
+            
+INFO:root: 2023-07-18 09:08:45.616270
+           1)La nueva clave es usr_STE
+           2)La nueva base de datos es STE
+           3)El nuevo usuario es usr_STE
+           4)El nuevo servidor es 192.168.104.93 
+            
+INFO:root: 2023-07-18 09:08:45.631896
+           1)Password=usr_STE
+           2)Persist Security Info=True
+           3)User ID=usr_STE
+           4)Initial Catalog=STE 
+           5)Data Source=192.168.104.93 
+            
+INFO:root: 2023-07-18 09:08:45.631896
+           1)La nueva clave es usr_STE
+           2)La nueva base de datos es STE
+           3)El nuevo usuario es usr_STE
+           4)El nuevo servidor es 192.168.104.93 
+            
+INFO:root: 2023-07-18 09:08:45.647517
+           1)Password=usr_STE
+           2)Persist Security Info=True
+           3)User ID=usr_STE
+           4)Initial Catalog=STE 
+           5)Data Source=192.168.104.93 
+            
+INFO:root: 2023-07-18 09:08:45.647517
+           1)La nueva clave es usr_STE
+           2)La nueva base de datos es STE
+           3)El nuevo usuario es usr_STE
+           4)El nuevo servidor es 192.168.104.93 
+            
+INFO:root: 2023-07-18 09:08:45.647517: Comenzando a modificar el udl
+INFO:root: 2023-07-18 09:08:45.647517: Comenzando a modificar el udl de STE
+INFO:root: 2023-07-18 09:08:45.663141
+           1)Password=SOF
+           2)Persist Security Info=True
+           3)User ID=SOF
+           4)Initial Catalog=STE 
+           5)Data Source=192.168.104.93 
+            
+INFO:root: 2023-07-18 09:08:45.663141
+           1)La nueva clave es SOF
+           2)La nueva base de datos es STE
+           3)El nuevo usuario es SOF
+           4)El nuevo servidor es 192.168.104.93 
+            
+INFO:root: 2023-07-18 09:08:45.669650
+           1)Password=usr_STE
+           2)Persist Security Info=True
+           3)User ID=usr_STE
+           4)Initial Catalog=STE 
+           5)Data Source=192.168.104.93 
+            
+INFO:root: 2023-07-18 09:08:45.669650
+           1)La nueva clave es usr_STE
+           2)La nueva base de datos es STE
+           3)El nuevo usuario es usr_STE
+           4)El nuevo servidor es 192.168.104.93 
+            
+INFO:root: 2023-07-18 09:08:45.669650
+           1)Password=usr_STE
+           2)Persist Security Info=True
+           3)User ID=usr_STE
+           4)Initial Catalog=STE 
+           5)Data Source=192.168.104.93 
+            
+INFO:root: 2023-07-18 09:08:45.669650
+           1)La nueva clave es usr_STE
+           2)La nueva base de datos es STE
+           3)El nuevo usuario es usr_STE
+           4)El nuevo servidor es 192.168.104.93 
+            
+INFO:root: 2023-07-18 09:08:45.685281
+           1)Password=usr_STE
+           2)Persist Security Info=True
+           3)User ID=usr_STE
+           4)Initial Catalog=STE 
+           5)Data Source=192.168.104.93 
+            
+INFO:root: 2023-07-18 09:08:45.685281
+           1)La nueva clave es usr_STE
+           2)La nueva base de datos es STE
+           3)El nuevo usuario es usr_STE
+           4)El nuevo servidor es 192.168.104.93 
+            
+INFO:root: 2023-07-18 09:08:45.685281: Comenzando a modificar el udl
+INFO:root: 2023-07-18 09:08:47.668157: Comenzando a modificar el udl de SSP
+INFO:root: 2023-07-18 09:08:47.677954
+           1)Password=SOF
+           2)Persist Security Info=True
+           3)User ID=SOF
+           4)Initial Catalog=Appointment 
+           5)Data Source=192.168.104.92 
+            
+INFO:root: 2023-07-18 09:08:47.677954
+           1)La nueva clave es SOF
+           2)La nueva base de datos es Appointment
+           3)El nuevo usuario es SOF
+           4)El nuevo servidor es 192.168.104.92 
+            
+INFO:root: 2023-07-18 09:08:47.688096
+           1)Password=usr_SSP
+           2)Persist Security Info=True
+           3)User ID=usr_SSP
+           4)Initial Catalog=Appointment 
+           5)Data Source=192.168.104.92 
+            
+INFO:root: 2023-07-18 09:08:47.688096
+           1)La nueva clave es usr_SSP
+           2)La nueva base de datos es Appointment
+           3)El nuevo usuario es usr_SSP
+           4)El nuevo servidor es 192.168.104.92 
+            
+INFO:root: 2023-07-18 09:08:47.688096: Comenzando a modificar el udl
+INFO:root: 2023-07-18 09:08:48.755558: Comenzando a modificar el udl de OpinionPoll
+INFO:root: 2023-07-18 09:08:48.758857
+           1)Password=SOF
+           2)Persist Security Info=True
+           3)User ID=SOF
+           4)Initial Catalog=STE 
+           5)Data Source=192.168.104.93 
+            
+INFO:root: 2023-07-18 09:08:48.758857
+           1)La nueva clave es SOF
+           2)La nueva base de datos es STE
+           3)El nuevo usuario es SOF
+           4)El nuevo servidor es 192.168.104.93 
+            
+INFO:root: 2023-07-18 09:08:48.778137
+           1)Password=usr_STE
+           2)Persist Security Info=True
+           3)User ID=usr_STE
+           4)Initial Catalog=STE 
+           5)Data Source=192.168.104.93 
+            
+INFO:root: 2023-07-18 09:08:48.778137
+           1)La nueva clave es usr_STE
+           2)La nueva base de datos es STE
+           3)El nuevo usuario es usr_STE
+           4)El nuevo servidor es 192.168.104.93 
+            
+INFO:root: 2023-07-18 09:12:33.915115: Fin de la ejecucion de la Aplicacion
+INFO:root: 2023-07-18 09:17:51.597539: Inicializacion de la Aplicacion
+INFO:root: 2023-07-18 09:17:51.837579: La imagenes no fueron cargadas correctamente, valide que la carpeta img se encuentre en el aplicativo
+INFO:root: 2023-07-18 09:21:48.925531: Se esta seleccionando el directorio para la creacion de la aplicacion
+INFO:root: 2023-07-18 09:21:52.594244: Se selecciono el directorio C:/Entornos/Senasa - 03/PRODUCCION
+INFO:root: 2023-07-18 09:21:54.082273: Se comienza a automatizar el aplicativo
+INFO:root: 2023-07-18 09:21:54.082964: La carpeta Middleware  existe
+INFO:root: 2023-07-18 09:21:54.082964: La carpeta FrontEnd  existe
+INFO:root: 2023-07-18 09:21:54.082964: Paso todas las pruebas, comenzando proceso automatizacion 
+INFO:root: 2023-07-18 09:21:54.083967: Inicializacion De La instalacion del servicio
+INFO:root: 2023-07-18 09:21:54.483514: create "e-Flow STE Middleware Service"  binpath="C:\Entornos\Senasa - 03\PRODUCCION\MiddleWare\STE\bin\Sidesys.Services.ApplicationService.exe" obj=localsystem start=demand 
+INFO:root: 2023-07-18 09:21:54.483514: El servicio e-Flow STE Middleware Service se ha instalado exitosamente
+INFO:root: 2023-07-18 09:21:54.483514: Finalizacion de la instalacion del servicio
+INFO:root: 2023-07-18 09:21:54.483514: Inicializacion De La instalacion del servicio
+INFO:root: 2023-07-18 09:21:54.668403: create "e-Flow STE MiddlewareNode Service"  binpath="C:\Entornos\Senasa - 03\PRODUCCION\MiddleWareNode\STE\bin\Sidesys.Services.ApplicationService.exe" obj=localsystem start=demand 
+INFO:root: 2023-07-18 09:21:54.668403: El servicio e-Flow STE MiddlewareNode Service se ha instalado exitosamente
+INFO:root: 2023-07-18 09:21:54.668403: Finalizacion de la instalacion del servicio
+INFO:root: 2023-07-18 09:21:54.668403: Inicializacion De La instalacion del servicio
+INFO:root: 2023-07-18 09:21:54.846785: create "e-Flow Citas STE Middleware Service"  binpath="C:\Entornos\Senasa - 03\PRODUCCION\MiddleWare\Appointment\bin\Sidesys.Services.ApplicationService.exe" obj=localsystem start=demand 
+INFO:root: 2023-07-18 09:21:54.862408: El servicio e-Flow Citas STE Middleware Service se ha instalado exitosamente
+INFO:root: 2023-07-18 09:21:54.862408: Finalizacion de la instalacion del servicio
+INFO:root: 2023-07-18 09:21:54.862408: Inicializacion De La instalacion del servicio
+INFO:root: 2023-07-18 09:21:55.084711: create "e-Flow Encuesta STE Middleware Service"  binpath="C:\Entornos\Senasa - 03\PRODUCCION\MiddleWare\OpinionPoll\bin\Sidesys.Services.ApplicationService.exe" obj=localsystem start=demand 
+INFO:root: 2023-07-18 09:21:55.100335: El servicio e-Flow Encuesta STE Middleware Service se ha instalado exitosamente
+INFO:root: 2023-07-18 09:21:55.100335: Finalizacion de la instalacion del servicio
+INFO:root: 2023-07-18 09:21:55.100335: Inicializacion De la creacion de la aplicacion STE 
+INFO:root: 2023-07-18 09:21:58.667392: CompletedProcess(args=['powershell', '-Command', "\n                 Import-Module WebAdministration\n                 New-Item 'IIS:\\Sites\\Default Web Site\\STE' -physicalPath 'C:\\Entornos\\Senasa - 03\\PRODUCCION\\FrontEnd\\STE' -type Application\n                "], returncode=1, stdout='', stderr='New-Item : Destination element already exists, please use "force" parameter to override.\nAt line:3 char:18\n+ ...             New-Item \'IIS:\\Sites\\Default Web Site\\STE\' -physicalPath  ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidArgument: (:) [New-Item], ArgumentException\n    + FullyQualifiedErrorId : Destination element already exists, please use "force" parameter to override.,Microsoft. \n   PowerShell.Commands.NewItemCommand\n \n') 
+ERROR:root: 2023-07-18 09:21:58.667392: La carpeta STE no existe
+ERROR:root: 2023-07-18 09:21:58.667392: Error al crear la aplicacion STE, valide que sea administrador
+INFO:root: 2023-07-18 09:21:58.667392: Inicializacion De la creacion de la aplicacion Appointment 
+INFO:root: 2023-07-18 09:22:01.007034: CompletedProcess(args=['powershell', '-Command', "\n                 Import-Module WebAdministration\n                 New-Item 'IIS:\\Sites\\Default Web Site\\Appointment' -physicalPath 'C:\\Entornos\\Senasa - 03\\PRODUCCION\\FrontEnd\\Appointment' -type Application\n                "], returncode=1, stdout='', stderr='New-Item : Destination element already exists, please use "force" parameter to override.\nAt line:3 char:18\n+ ...             New-Item \'IIS:\\Sites\\Default Web Site\\Appointment\' -physi ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidArgument: (:) [New-Item], ArgumentException\n    + FullyQualifiedErrorId : Destination element already exists, please use "force" parameter to override.,Microsoft. \n   PowerShell.Commands.NewItemCommand\n \n') 
+ERROR:root: 2023-07-18 09:22:01.007034: La carpeta Appointment no existe
+ERROR:root: 2023-07-18 09:22:01.007034: Error al crear la aplicacion Appointment, valide que sea administrador
+INFO:root: 2023-07-18 09:22:01.007034: Inicializacion De la creacion de la aplicacion AppointmentWeb 
+INFO:root: 2023-07-18 09:22:04.200882: CompletedProcess(args=['powershell', '-Command', "\n                 Import-Module WebAdministration\n                 New-Item 'IIS:\\Sites\\Default Web Site\\AppointmentWeb' -physicalPath 'C:\\Entornos\\Senasa - 03\\PRODUCCION\\FrontEnd\\AppointmentWeb' -type Application\n                "], returncode=1, stdout='', stderr='New-Item : Destination element already exists, please use "force" parameter to override.\nAt line:3 char:18\n+ ...             New-Item \'IIS:\\Sites\\Default Web Site\\AppointmentWeb\' -ph ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidArgument: (:) [New-Item], ArgumentException\n    + FullyQualifiedErrorId : Destination element already exists, please use "force" parameter to override.,Microsoft. \n   PowerShell.Commands.NewItemCommand\n \n') 
+ERROR:root: 2023-07-18 09:22:04.200882: La carpeta AppointmentWeb no existe
+ERROR:root: 2023-07-18 09:22:04.200882: Error al crear la aplicacion AppointmentWeb, valide que sea administrador
+INFO:root: 2023-07-18 09:22:04.200882: Inicializacion De la creacion de la aplicacion AppointmentWebService 
+INFO:root: 2023-07-18 09:22:06.554137: CompletedProcess(args=['powershell', '-Command', "\n                 Import-Module WebAdministration\n                 New-Item 'IIS:\\Sites\\Default Web Site\\AppointmentWebService' -physicalPath 'C:\\Entornos\\Senasa - 03\\PRODUCCION\\FrontEnd\\AppointmentWebService' -type Application\n                "], returncode=1, stdout='', stderr='New-Item : Destination element already exists, please use "force" parameter to override.\nAt line:3 char:18\n+ ...             New-Item \'IIS:\\Sites\\Default Web Site\\AppointmentWebServi ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidArgument: (:) [New-Item], ArgumentException\n    + FullyQualifiedErrorId : Destination element already exists, please use "force" parameter to override.,Microsoft. \n   PowerShell.Commands.NewItemCommand\n \n') 
+ERROR:root: 2023-07-18 09:22:06.554137: La carpeta AppointmentWebService no existe
+ERROR:root: 2023-07-18 09:22:06.554137: Error al crear la aplicacion AppointmentWebService, valide que sea administrador
+INFO:root: 2023-07-18 09:22:06.554137: Inicializacion De la creacion de la aplicacion OpinionPoll 
+INFO:root: 2023-07-18 09:22:08.927806: CompletedProcess(args=['powershell', '-Command', "\n                 Import-Module WebAdministration\n                 New-Item 'IIS:\\Sites\\Default Web Site\\OpinionPoll' -physicalPath 'C:\\Entornos\\Senasa - 03\\PRODUCCION\\FrontEnd\\OpinionPoll' -type Application\n                "], returncode=1, stdout='', stderr='New-Item : Destination element already exists, please use "force" parameter to override.\nAt line:3 char:18\n+ ...             New-Item \'IIS:\\Sites\\Default Web Site\\OpinionPoll\' -physi ...\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n    + CategoryInfo          : InvalidArgument: (:) [New-Item], ArgumentException\n    + FullyQualifiedErrorId : Destination element already exists, please use "force" parameter to override.,Microsoft. \n   PowerShell.Commands.NewItemCommand\n \n') 
+ERROR:root: 2023-07-18 09:22:08.927806: La carpeta OpinionPoll no existe
+ERROR:root: 2023-07-18 09:22:08.927806: Error al crear la aplicacion OpinionPoll, valide que sea administrador
+INFO:root: 2023-07-18 09:22:08.927806: Comenzando a modificar el udl
+INFO:root: 2023-07-18 09:22:08.943432: Comenzando a modificar el udl de STE
+INFO:root: 2023-07-18 09:22:09.027797
+           1)Password=SOF
+           2)Persist Security Info=True
+           3)User ID=SOF
+           4)Initial Catalog=STE 
+           5)Data Source=192.168.104.92 
+            
+INFO:root: 2023-07-18 09:22:09.027797
+           1)La nueva clave es SOF
+           2)La nueva base de datos es STE
+           3)El nuevo usuario es SOF
+           4)El nuevo servidor es 192.168.104.93 
+            
+INFO:root: 2023-07-18 09:22:09.027797
+           1)Password=usr_STE
+           2)Persist Security Info=True
+           3)User ID=usr_STE
+           4)Initial Catalog=STE 
+           5)Data Source=192.168.104.92 
+            
+INFO:root: 2023-07-18 09:22:09.027797
+           1)La nueva clave es usr_STE
+           2)La nueva base de datos es STE
+           3)El nuevo usuario es usr_STE
+           4)El nuevo servidor es 192.168.104.93 
+            
+INFO:root: 2023-07-18 09:22:09.043419
+           1)Password=usr_STE
+           2)Persist Security Info=True
+           3)User ID=usr_STE
+           4)Initial Catalog=STE 
+           5)Data Source=192.168.104.92 
+            
+INFO:root: 2023-07-18 09:22:09.043419
+           1)La nueva clave es usr_STE
+           2)La nueva base de datos es STE
+           3)El nuevo usuario es usr_STE
+           4)El nuevo servidor es 192.168.104.93 
+            
+INFO:root: 2023-07-18 09:22:09.059047
+           1)Password=usr_STE
+           2)Persist Security Info=True
+           3)User ID=usr_STE
+           4)Initial Catalog=STE 
+           5)Data Source=192.168.104.92 
+            
+INFO:root: 2023-07-18 09:22:09.059047
+           1)La nueva clave es usr_STE
+           2)La nueva base de datos es STE
+           3)El nuevo usuario es usr_STE
+           4)El nuevo servidor es 192.168.104.93 
+            
+INFO:root: 2023-07-18 09:22:09.059047: Comenzando a modificar el udl
+INFO:root: 2023-07-18 09:22:09.059047: Comenzando a modificar el udl de STE
+INFO:root: 2023-07-18 09:22:09.074667
+           1)Password=SOF
+           2)Persist Security Info=True
+           3)User ID=SOF
+           4)Initial Catalog=STE 
+           5)Data Source=192.168.104.92 
+            
+INFO:root: 2023-07-18 09:22:09.074667
+           1)La nueva clave es SOF
+           2)La nueva base de datos es STE
+           3)El nuevo usuario es SOF
+           4)El nuevo servidor es 192.168.104.93 
+            
+INFO:root: 2023-07-18 09:22:09.074667
+           1)Password=usr_STE
+           2)Persist Security Info=True
+           3)User ID=usr_STE
+           4)Initial Catalog=STE 
+           5)Data Source=192.168.104.92 
+            
+INFO:root: 2023-07-18 09:22:09.074667
+           1)La nueva clave es usr_STE
+           2)La nueva base de datos es STE
+           3)El nuevo usuario es usr_STE
+           4)El nuevo servidor es 192.168.104.93 
+            
+INFO:root: 2023-07-18 09:22:09.090292
+           1)Password=usr_STE
+           2)Persist Security Info=True
+           3)User ID=usr_STE
+           4)Initial Catalog=STE 
+           5)Data Source=192.168.104.92 
+            
+INFO:root: 2023-07-18 09:22:09.090292
+           1)La nueva clave es usr_STE
+           2)La nueva base de datos es STE
+           3)El nuevo usuario es usr_STE
+           4)El nuevo servidor es 192.168.104.93 
+            
+INFO:root: 2023-07-18 09:22:09.105915
+           1)Password=usr_STE
+           2)Persist Security Info=True
+           3)User ID=usr_STE
+           4)Initial Catalog=STE 
+           5)Data Source=192.168.104.92 
+            
+INFO:root: 2023-07-18 09:22:09.105915
+           1)La nueva clave es usr_STE
+           2)La nueva base de datos es STE
+           3)El nuevo usuario es usr_STE
+           4)El nuevo servidor es 192.168.104.93 
+            
+INFO:root: 2023-07-18 09:22:09.112422: Comenzando a modificar el udl
+INFO:root: 2023-07-18 09:22:10.814272: Comenzando a modificar el udl de SSP
+INFO:root: 2023-07-18 09:22:10.832313
+           1)Password=SOF
+           2)Persist Security Info=True
+           3)User ID=SOF
+           4)Initial Catalog=Appointment 
+           5)Data Source=192.168.104.93 
+            
+INFO:root: 2023-07-18 09:22:10.832313
+           1)La nueva clave es SOF
+           2)La nueva base de datos es Appointment
+           3)El nuevo usuario es SOF
+           4)El nuevo servidor es 192.168.104.92 
+            
+INFO:root: 2023-07-18 09:22:10.842291
+           1)Password=usr_SSP
+           2)Persist Security Info=True
+           3)User ID=usr_SSP
+           4)Initial Catalog=Appointment 
+           5)Data Source=192.168.104.93 
+            
+INFO:root: 2023-07-18 09:22:10.842291
+           1)La nueva clave es usr_SSP
+           2)La nueva base de datos es Appointment
+           3)El nuevo usuario es usr_SSP
+           4)El nuevo servidor es 192.168.104.92 
+            
+INFO:root: 2023-07-18 09:22:10.852592: Comenzando a modificar el udl
+INFO:root: 2023-07-18 09:22:11.876108: Comenzando a modificar el udl de OpinionPoll
+INFO:root: 2023-07-18 09:22:11.882274
+           1)Password=SOF
+           2)Persist Security Info=True
+           3)User ID=SOF
+           4)Initial Catalog=STE 
+           5)Data Source=192.168.104.92 
+            
+INFO:root: 2023-07-18 09:22:11.882274
+           1)La nueva clave es SOF
+           2)La nueva base de datos es STE
+           3)El nuevo usuario es SOF
+           4)El nuevo servidor es 192.168.104.93 
+            
+INFO:root: 2023-07-18 09:22:11.902357
+           1)Password=usr_STE
+           2)Persist Security Info=True
+           3)User ID=usr_STE
+           4)Initial Catalog=STE 
+           5)Data Source=192.168.104.92 
+            
+INFO:root: 2023-07-18 09:22:11.902357
+           1)La nueva clave es usr_STE
+           2)La nueva base de datos es STE
+           3)El nuevo usuario es usr_STE
+           4)El nuevo servidor es 192.168.104.93 
+            
+INFO:root: 2023-07-18 09:23:14.733663: Se esta seleccionando el directorio para la creacion de la aplicacion
+INFO:root: 2023-07-18 09:23:17.610976: Se selecciono el directorio C:/Entornos/Senasa - 03/PRODUCCION
+INFO:root: 2023-07-18 09:23:17.610976: La carpeta STE  existe
+INFO:root: 2023-07-18 09:23:17.610976: Se inicia con el proceso de lectura de hora
+INFO:root: 2023-07-18 09:23:17.610976: La carpeta Appointment  existe
+INFO:root: 2023-07-18 09:23:17.610976: Se inicia con el proceso de lectura de hora
+INFO:root: 2023-07-18 09:23:17.626604: La carpeta OpinionPoll  existe
+INFO:root: 2023-07-18 09:23:17.626604: Se inicia con el proceso de lectura de hora
+INFO:root: 2023-07-18 09:23:31.293646: Se esta seleccionando el directorio para la creacion de la aplicacion
+INFO:root: 2023-07-18 09:23:33.100482: Se selecciono el directorio 
+ERROR:root: 2023-07-18 09:23:33.100482: La carpeta STE no existe
+ERROR:root: 2023-07-18 09:23:33.100482: La carpeta Appointment no existe
+ERROR:root: 2023-07-18 09:23:33.100482: La carpeta OpinionPoll no existe
+INFO:root: 2023-07-18 09:23:34.717638: Se esta seleccionando el directorio para la creacion de la aplicacion
+INFO:root: 2023-07-18 09:23:43.065953: Se selecciono el directorio C:/Entornos/Banco Promerica - 01/PRODUCCION
+INFO:root: 2023-07-18 09:23:43.065953: La carpeta STE  existe
+INFO:root: 2023-07-18 09:23:43.065953: Se inicia con el proceso de lectura de hora
+INFO:root: 2023-07-18 09:23:43.065953: La carpeta Appointment  existe
+INFO:root: 2023-07-18 09:23:43.065953: Se inicia con el proceso de lectura de hora
+ERROR:root: 2023-07-18 09:23:43.081579: La carpeta OpinionPoll no existe
+INFO:root: 2023-07-18 09:23:50.525622: Se esta seleccionando el directorio para la creacion de la aplicacion
+INFO:root: 2023-07-18 09:23:58.092222: Se selecciono el directorio C:/Entornos/Superintendencia - 04/PRODUCCION
+INFO:root: 2023-07-18 09:23:58.092222: La carpeta STE  existe
+INFO:root: 2023-07-18 09:23:58.092222: Se inicia con el proceso de lectura de hora
+INFO:root: 2023-07-18 09:23:58.098745: La carpeta Appointment  existe
+INFO:root: 2023-07-18 09:23:58.098745: Se inicia con el proceso de lectura de hora
+ERROR:root: 2023-07-18 09:23:58.098745: La carpeta OpinionPoll no existe
+INFO:root: 2023-07-18 09:24:04.677563: Se esta seleccionando el directorio para la creacion de la aplicacion
+INFO:root: 2023-07-18 09:24:11.811296: Se selecciono el directorio C:/Entornos/Senasa - 03/PRODUCCION
+INFO:root: 2023-07-18 09:24:11.811296: La carpeta STE  existe
+INFO:root: 2023-07-18 09:24:11.811296: Se inicia con el proceso de lectura de hora
+INFO:root: 2023-07-18 09:24:11.811296: La carpeta Appointment  existe
+INFO:root: 2023-07-18 09:24:11.811296: Se inicia con el proceso de lectura de hora
+INFO:root: 2023-07-18 09:24:11.811296: La carpeta OpinionPoll  existe
+INFO:root: 2023-07-18 09:24:11.811296: Se inicia con el proceso de lectura de hora
+INFO:root: 2023-07-18 09:24:30.502059: Se esta seleccionando el directorio para la creacion de la aplicacion
+INFO:root: 2023-07-18 09:24:32.136344: Se selecciono el directorio C:/Entornos/Senasa - 03/PRODUCCION
+INFO:root: 2023-07-18 09:24:32.136344: La carpeta STE  existe
+INFO:root: 2023-07-18 09:24:32.136344: Se inicia con el proceso de lectura de hora
+INFO:root: 2023-07-18 09:24:32.136344: La carpeta Appointment  existe
+INFO:root: 2023-07-18 09:24:32.136344: Se inicia con el proceso de lectura de hora
+INFO:root: 2023-07-18 09:24:32.136344: La carpeta OpinionPoll  existe
+INFO:root: 2023-07-18 09:24:32.136344: Se inicia con el proceso de lectura de hora
+INFO:root: 2023-07-18 09:24:42.110011: Se esta seleccionando el directorio para la creacion de la aplicacion
+INFO:root: 2023-07-18 09:24:55.390828: Se selecciono el directorio C:/Entornos/Clinica San Rafael/Centro Medico San Rafael/CMSR - eFlow 4.1.3/Despliegue/Entregable/1. Proceso de Intalacion
+INFO:root: 2023-07-18 09:24:55.390828: La carpeta STE  existe
+INFO:root: 2023-07-18 09:24:55.390828: Se inicia con el proceso de lectura de hora
+ERROR:root: 2023-07-18 09:24:55.390828: La carpeta Appointment no existe
+ERROR:root: 2023-07-18 09:24:55.390828: La carpeta OpinionPoll no existe
+INFO:root: 2023-07-18 09:25:03.862329: Se esta seleccionando el directorio para la creacion de la aplicacion
+INFO:root: 2023-07-18 09:25:05.963070: Se selecciono el directorio 
+ERROR:root: 2023-07-18 09:25:05.963070: La carpeta STE no existe
+ERROR:root: 2023-07-18 09:25:05.963070: La carpeta Appointment no existe
+ERROR:root: 2023-07-18 09:25:05.963070: La carpeta OpinionPoll no existe
+INFO:root: 2023-07-18 09:25:09.602007: Fin de la ejecucion de la Aplicacion

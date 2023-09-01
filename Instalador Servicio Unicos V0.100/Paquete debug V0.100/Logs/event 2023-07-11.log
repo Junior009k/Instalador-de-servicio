@@ -1,0 +1,9 @@
+INFO:root: 2023-07-11 09:39:50.023840: Inicializacion de la Aplicacion
+INFO:root: 2023-07-11 09:39:50.288967: La imagenes no fueron cargadas correctamente, valide que la carpeta img se encuentre en el aplicativo
+INFO:root: 2023-07-11 09:40:11.358515: Se esta seleccionando el directorio para la creacion de la aplicacion
+INFO:root: 2023-07-11 09:40:16.069873: Se selecciono el directorio C:/Users/jaquino/OneDrive - Sidesys Srl/Documents/SQL Server Management Studio
+INFO:root: 2023-07-11 09:40:17.126522: Se comienza a crear la aplicacion
+INFO:root: 2023-07-11 09:40:17.129056: Inicializacion De la creacion del site Promerica 
+INFO:root: 2023-07-11 09:40:19.176371: CompletedProcess(args=['powershell', '-Command', '\n                 Import-Module WebAdministration\n                 New-IISSite -Name Promerica -BindingInformation "*:555:" -PhysicalPath "C:\\Users\\jaquino\\OneDrive - Sidesys Srl\\Documents\\SQL Server Management Studio"\n                '], returncode=0, stdout='', stderr='') 
+INFO:root: 2023-07-11 09:40:19.176371: Promerica Se creo el site correctamente
+INFO:root: 2023-07-11 09:40:46.105326: Fin de la ejecucion de la Aplicacion

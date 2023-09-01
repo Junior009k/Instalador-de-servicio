@@ -1,0 +1,18 @@
+INFO:root: 2023-07-10 10:15:16.428392: Inicializacion de la Aplicacion
+INFO:root: 2023-07-10 10:15:16.675805: La imagenes no fueron cargadas correctamente, valide que la carpeta img se encuentre en el aplicativo
+INFO:root: 2023-07-10 10:15:28.898542: Se establecio el inicio Manual
+INFO:root: 2023-07-10 10:15:29.610541: Se esta examinando el archivo
+INFO:root: 2023-07-10 10:16:00.522919: Se esta ejecutando la instalacion del servicio
+INFO:root: 2023-07-10 10:16:00.522919: Se establecio el inicio Manual
+INFO:root: 2023-07-10 10:16:00.522919: Inicializacion De La instalacion del servicio
+INFO:root: 2023-07-10 10:16:00.635270: El servicio e-Flow Banco Promerica MiddleWare Service se ha instalado exitosamente
+INFO:root: 2023-07-10 10:16:00.635270: Finalizacion de la instalacion del servicio
+INFO:root: 2023-07-10 10:16:01.930658: Se establecio el inicio Manual
+INFO:root: 2023-07-10 10:16:10.041189: Se esta examinando el archivo
+INFO:root: 2023-07-10 10:16:17.906754: Se esta ejecutando la instalacion del servicio
+INFO:root: 2023-07-10 10:16:17.906754: Se establecio el inicio Manual
+INFO:root: 2023-07-10 10:16:17.906754: Inicializacion De La instalacion del servicio
+INFO:root: 2023-07-10 10:16:18.037540: El servicio e-Flow Banco Promerica Citas MiddleWare Service se ha instalado exitosamente
+INFO:root: 2023-07-10 10:16:18.037540: Finalizacion de la instalacion del servicio
+INFO:root: 2023-07-10 10:16:19.339854: Se establecio el inicio Manual
+INFO:root: 2023-07-10 10:16:22.098733: Fin de la ejecucion de la Aplicacion

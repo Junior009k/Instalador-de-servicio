@@ -1,0 +1,20 @@
+INFO:root: 2023-05-08 14:28:44.158572: Inicializacion de la Aplicacion
+INFO:root: 2023-05-08 14:28:51.791577: guardando los datos de configuracion
+INFO:root:2023-05-08 14:28:51.793572: Estableciendo color Rojo al frame 1 id del color 1
+INFO:root:2023-05-08 14:28:51.793572: Estableciendo color Verde al frame 2 id del color 2
+INFO:root:2023-05-08 14:28:51.793572: Estableciendo color Verde al frame 3 id del color 2
+INFO:root:2023-05-08 14:28:51.793572: Estableciendo color Purpura al frame 4 id del color 4
+INFO:root:2023-05-08 14:28:51.793572: actualizando la tabla estadoColor en el frame 1 actualiza el valor del campo idColor con 1)
+INFO:root:2023-05-08 14:28:51.793572: actualizando la tabla estadoColor en el frame 2 actualiza el valor del campo idColor con 2)
+INFO:root:2023-05-08 14:28:51.793572: actualizando la tabla estadoColor en el frame 3 actualiza el valor del campo idColor con 2)
+INFO:root:2023-05-08 14:28:51.793572: actualizando la tabla estadoColor en el frame 4 actualiza el valor del campo idColor con 4)
+INFO:root: 2023-05-08 14:28:53.881575: guardando los datos de configuracion
+INFO:root:2023-05-08 14:28:53.886736: Estableciendo color Rojo al frame 1 id del color 1
+INFO:root:2023-05-08 14:28:53.886736: Estableciendo color Verde al frame 2 id del color 2
+INFO:root:2023-05-08 14:28:53.886736: Estableciendo color Verde al frame 3 id del color 2
+INFO:root:2023-05-08 14:28:53.886736: Estableciendo color Purpura al frame 4 id del color 4
+INFO:root:2023-05-08 14:28:53.886736: actualizando la tabla estadoColor en el frame 1 actualiza el valor del campo idColor con 1)
+INFO:root:2023-05-08 14:28:53.886736: actualizando la tabla estadoColor en el frame 2 actualiza el valor del campo idColor con 2)
+INFO:root:2023-05-08 14:28:53.886736: actualizando la tabla estadoColor en el frame 3 actualiza el valor del campo idColor con 2)
+INFO:root:2023-05-08 14:28:53.886736: actualizando la tabla estadoColor en el frame 4 actualiza el valor del campo idColor con 4)
+INFO:root: 2023-05-08 14:37:01.560861: Fin de la ejecucion de la Aplicacion
